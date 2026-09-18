@@ -1,0 +1,3463 @@
+{
+	"updated": "2026-09-17",
+	"cards": [
+		{
+			"id": "Abomination",
+			"name": "Abomination",
+			"energy": 5,
+			"power": 9,
+			"desc": "\"Foolish rabble! You are beneath me!\""
+		},
+		{
+			"id": "AbsorbingMan",
+			"name": "Absorbing Man",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: If the last card you played has an On Reveal, copy its text. (if able)"
+		},
+		{
+			"id": "AdamWarlock",
+			"name": "Adam Warlock",
+			"energy": 2,
+			"power": 0,
+			"desc": "End of Turn: Draw a card if you're winning here. Otherwise, +1 Power."
+		},
+		{
+			"id": "AdamantiumInfusion",
+			"name": "Adamantium Infusion",
+			"energy": 4,
+			"power": 0,
+			"desc": "On Reveal: Banish this to revive your highest-Power destroyed card here with its Power doubled."
+		},
+		{
+			"id": "Aero",
+			"name": "Aero",
+			"energy": 5,
+			"power": 9,
+			"desc": "On Reveal: The last card your opponent played moves to this location."
+		},
+		{
+			"id": "Agamotto",
+			"name": "Agamotto",
+			"energy": 5,
+			"power": 10,
+			"desc": "Game Start: Shuffle 4 Ancient Arcana into your deck."
+		},
+		{
+			"id": "AgathaHarkness",
+			"name": "Agatha Harkness",
+			"energy": 6,
+			"power": 12,
+			"desc": "Game Start: Draw Agatha. She controls your cards on even turns."
+		},
+		{
+			"id": "Agent13",
+			"name": "Agent 13",
+			"energy": 1,
+			"power": 3,
+			"desc": "On Reveal: Add a random card to your hand."
+		},
+		{
+			"id": "AgentCoulson",
+			"name": "Agent Coulson",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Add a random 4-Cost and 5-Cost card to your hand."
+		},
+		{
+			"id": "AgentVenom",
+			"name": "Agent Venom",
+			"energy": 2,
+			"power": 5,
+			"desc": "On Reveal: Set the Power of all cards in your deck to 3."
+		},
+		{
+			"id": "Agony",
+			"name": "Agony",
+			"energy": 1,
+			"power": 2,
+			"desc": "After you play a card here, merge this into it."
+		},
+		{
+			"id": "AirWalker",
+			"name": "Air-Walker",
+			"energy": 3,
+			"power": 4,
+			"desc": "When Destroyed: Replace this with a 4-Cost card from your hand or deck."
+		},
+		{
+			"id": "Ajax",
+			"name": "Ajax",
+			"energy": 5,
+			"power": 7,
+			"desc": "Ongoing: +1 Power for each card in play afflicted with negative Power."
+		},
+		{
+			"id": "Alioth",
+			"name": "Alioth",
+			"energy": 6,
+			"power": 7,
+			"desc": "On Reveal: Remove the text from all unrevealed enemy characters here."
+		},
+		{
+			"id": "AmericaChavez",
+			"name": "America Chavez",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Give the top card of your deck +3 Power."
+		},
+		{
+			"id": "Angel",
+			"name": "Angel",
+			"energy": 2,
+			"power": 4,
+			"desc": "When one of your cards is destroyed, this flies out of your hand or deck to replace it."
+		},
+		{
+			"id": "Angela",
+			"name": "Angela",
+			"energy": 2,
+			"power": 3,
+			"desc": "After you play a card here, +1 Power."
+		},
+		{
+			"id": "Annihilus",
+			"name": "Annihilus",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: Your cards with Power below 0 switch sides. Destroy those that can't."
+		},
+		{
+			"id": "AntMan",
+			"name": "Ant Man",
+			"energy": 1,
+			"power": 1,
+			"desc": "Ongoing: If your side of this location is full, +4 Power."
+		},
+		{
+			"id": "AntiPolarMagneto",
+			"name": "Anti-Polar Magneto",
+			"energy": 6,
+			"power": 9,
+			"desc": "On Reveal: Add a 3 or 4-Cost card from your hand to each other location."
+		},
+		{
+			"id": "AntiVenom",
+			"name": "Anti-Venom",
+			"energy": 4,
+			"power": 7,
+			"desc": "On Reveal: Set the Cost and Power of your deck's top card to 0."
+		},
+		{
+			"id": "Apocalypse",
+			"name": "Apocalypse",
+			"energy": 6,
+			"power": 9,
+			"desc": "When Discarded: Put this back with +4 Power."
+		},
+		{
+			"id": "Arana",
+			"name": "Araña",
+			"energy": 1,
+			"power": 2,
+			"desc": "Activate: After you play your next card, give it +1 Power and move it to the right."
+		},
+		{
+			"id": "ArchangelHorseman",
+			"name": "Archangel Horseman of Death",
+			"energy": 2,
+			"power": 4,
+			"desc": "Objective: Your cards are destroyed 4 times Resurrect one here with +5 Power. (0/4)"
+		},
+		{
+			"id": "Ares",
+			"name": "Ares",
+			"energy": 4,
+			"power": 7,
+			"desc": "On Reveal: Compare the Power of the top 3 cards of both decks. If your total is higher, +6 Power."
+		},
+		{
+			"id": "Arishem",
+			"name": "Arishem",
+			"energy": 7,
+			"power": 7,
+			"desc": "Game Start: Shuffle 12 new cards into your deck. On turn 3, get +1 Max Energy."
+		},
+		{
+			"id": "Armor",
+			"name": "Armor",
+			"energy": 2,
+			"power": 3,
+			"desc": "Ongoing: Cards here can't be destroyed."
+		},
+		{
+			"id": "ArnimZola",
+			"name": "Arnim Zola",
+			"energy": 6,
+			"power": 0,
+			"desc": "On Reveal: Destroy one of your other cards here to copy it at the other locations."
+		},
+		{
+			"id": "Askanison",
+			"name": "Askani'son",
+			"energy": 2,
+			"power": 3,
+			"desc": "Activate: Create a 1-Cost card at another location. Increase the Cost each time you're winning here as the turn starts."
+		},
+		{
+			"id": "AstralProjection",
+			"name": "Astral Projection",
+			"energy": 3,
+			"power": 0,
+			"desc": "On Reveal: Copy the text of an On Reveal card in your hand."
+		},
+		{
+			"id": "Attuma",
+			"name": "Attuma",
+			"energy": 4,
+			"power": 10,
+			"desc": "End of Turn: Destroy one of your cards here with less Power."
+		},
+		{
+			"id": "AuntMay",
+			"name": "Aunt May",
+			"energy": 2,
+			"power": 4,
+			"desc": "End of Turn: If you used a Moveable ability, give a Moveable card in your hand -1 Cost and +2 Power."
+		},
+		{
+			"id": "Aurora",
+			"name": "Aurora",
+			"energy": 6,
+			"power": 5,
+			"desc": "On Reveal: Give one of your other On Reveal cards at each location +2 Power. Repeat for Ongoing, Activate, and End of Turn."
+		},
+		{
+			"id": "AwesomeAndy",
+			"name": "Awesome Andy",
+			"energy": 2,
+			"power": 3,
+			"desc": "Activate: Give one of your cards at each other location +2 Power."
+		},
+		{
+			"id": "BaronMordo",
+			"name": "Baron Mordo",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: The top card of your opponent's deck costs 6 until turn 6."
+		},
+		{
+			"id": "BaronZemo",
+			"name": "Baron Zemo",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Recruit a card that costs the least from your opponent's deck to your side of this location."
+		},
+		{
+			"id": "Bast",
+			"name": "Bast",
+			"energy": 1,
+			"power": 1,
+			"desc": "On Reveal: Set the Power of all cards in your hand to 3."
+		},
+		{
+			"id": "Bastion",
+			"name": "Bastion",
+			"energy": 4,
+			"power": 3,
+			"desc": "On Reveal: Add copies of your other cards here to your hand. Set their Costs to 2 and Power to 3."
+		},
+		{
+			"id": "Batroc",
+			"name": "Batroc the Leaper",
+			"energy": 1,
+			"power": 2,
+			"desc": "When a card moves, follow it to gain +2 Power. (once per turn)"
+		},
+		{
+			"id": "Beast",
+			"name": "Beast",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Return your other cards here to your hand. They cost 1 less next turn."
+		},
+		{
+			"id": "BetaRayBill",
+			"name": "Beta Ray Bill",
+			"energy": 4,
+			"power": 6,
+			"desc": "On Reveal: Shuffle Stormbreaker into your deck."
+		},
+		{
+			"id": "Bishop",
+			"name": "Bishop",
+			"energy": 3,
+			"power": 2,
+			"desc": "After you play a card, this gains +1 Power."
+		},
+		{
+			"id": "BlackBolt",
+			"name": "Black Bolt",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: Discard the card that costs the least from your opponent's hand."
+		},
+		{
+			"id": "BlackCat",
+			"name": "Black Cat",
+			"energy": 1,
+			"power": 4,
+			"desc": "End of Turn: Discard this from your hand."
+		},
+		{
+			"id": "BlackKnight",
+			"name": "Black Knight",
+			"energy": 1,
+			"power": 2,
+			"desc": "After you discard a card, add the Ebony Blade to your hand with that card's Power. (once per game)"
+		},
+		{
+			"id": "BlackPanther",
+			"name": "Black Panther",
+			"energy": 5,
+			"power": 5,
+			"desc": "On Reveal: Double this card's Power."
+		},
+		{
+			"id": "BlackSwan",
+			"name": "Black Swan",
+			"energy": 2,
+			"power": 3,
+			"desc": "Activate: Until the end of next turn, your 1-Cost cards cost 0."
+		},
+		{
+			"id": "BlackWidow",
+			"name": "Black Widow",
+			"energy": 3,
+			"power": 3,
+			"desc": "Activate: Add a Widow's Bite to your opponent's hand."
+		},
+		{
+			"id": "Blade",
+			"name": "Blade",
+			"energy": 1,
+			"power": 3,
+			"desc": "On Reveal: Discard the rightmost card from your hand."
+		},
+		{
+			"id": "Blink",
+			"name": "Blink",
+			"energy": 5,
+			"power": 7,
+			"desc": "On Reveal: Swap the last card you played with a card that costs more from your deck."
+		},
+		{
+			"id": "Blob",
+			"name": "Blob",
+			"energy": 6,
+			"power": 0,
+			"desc": "On Reveal: Merge cards from your deck into this until it gains 13 or more Power."
+		},
+		{
+			"id": "BlueMarvel",
+			"name": "Blue Marvel",
+			"energy": 5,
+			"power": 3,
+			"desc": "Ongoing: Your other cards have +1 Power."
+		},
+		{
+			"id": "Boomerang",
+			"name": "Boomerang",
+			"energy": 2,
+			"power": 2,
+			"desc": "When this returns to your hand, randomly steal 4 Power from characters in your opponent's hand. Activate: Return this to your hand."
+		},
+		{
+			"id": "Brood",
+			"name": "Brood",
+			"energy": 3,
+			"power": 2,
+			"desc": "On Reveal: Add 2 Broodlings here with the same Power."
+		},
+		{
+			"id": "BruceBanner",
+			"name": "Bruce Banner",
+			"energy": 2,
+			"power": 1,
+			"desc": "End of Turn: If you have unspent Energy, 33% chance to HULK OUT!"
+		},
+		{
+			"id": "BuckyBarnes",
+			"name": "Bucky Barnes",
+			"energy": 2,
+			"power": 2,
+			"desc": "When Destroyed: Replace this with the Winter Soldier."
+		},
+		{
+			"id": "Bullseye",
+			"name": "Bullseye",
+			"energy": 3,
+			"power": 2,
+			"desc": "Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -2 Power."
+		},
+		{
+			"id": "Cable",
+			"name": "Cable",
+			"energy": 2,
+			"power": 4,
+			"desc": "On Reveal: Draw a card from your opponent's deck."
+		},
+		{
+			"id": "Caiera",
+			"name": "Caiera",
+			"energy": 3,
+			"power": 5,
+			"desc": "Ongoing: Your 1 and 6-Cost cards can't be destroyed."
+		},
+		{
+			"id": "CalibanHorseman",
+			"name": "Caliban Horseman of Pestilence",
+			"energy": 3,
+			"power": 4,
+			"desc": "Objective: Have 3 cards that are 4-Cost or more in play Afflict the highest-Cost enemy card with -7 Power. (0/3)"
+		},
+		{
+			"id": "Cannonball",
+			"name": "Cannonball",
+			"energy": 5,
+			"power": 5,
+			"desc": "On Reveal: Move the highest-Power enemy card here away. If you can't, destroy it with a Rock."
+		},
+		{
+			"id": "CaptainAmerica",
+			"name": "Captain America",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: Your other Ongoing cards here have +2 Power."
+		},
+		{
+			"id": "CaptainCarter",
+			"name": "Captain Carter",
+			"energy": 3,
+			"power": 2,
+			"desc": "Ongoing: Add this card's Power to your back-row cards here. (can't add to itself)"
+		},
+		{
+			"id": "CaptainMarvel",
+			"name": "Captain Marvel",
+			"energy": 4,
+			"power": 6,
+			"desc": "At the end of the game, move to a location that wins you the game. (If possible)"
+		},
+		{
+			"id": "Carnage",
+			"name": "Carnage",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Destroy your other cards here. +2 Power for each destroyed."
+		},
+		{
+			"id": "CassandraNova",
+			"name": "Cassandra Nova",
+			"energy": 3,
+			"power": 0,
+			"desc": "On Reveal: Steal 1 Power from each card in your opponent's deck."
+		},
+		{
+			"id": "Cerebro",
+			"name": "Cerebro",
+			"energy": 3,
+			"power": 0,
+			"desc": "Ongoing: Your highest-Power cards have +3 Power."
+		},
+		{
+			"id": "Chamber",
+			"name": "Chamber",
+			"energy": 2,
+			"power": 1,
+			"desc": "Activate: +2 Power for each 5-Cost or more card you have here and in hand."
+		},
+		{
+			"id": "Chameleon",
+			"name": "Chameleon",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Copy the text of another card here you revealed this turn."
+		},
+		{
+			"id": "Clea",
+			"name": "Clea",
+			"energy": 1,
+			"power": 3,
+			"desc": "When this is Empowered, add Flames of the Faltine to your hand. (if in hand or in play)"
+		},
+		{
+			"id": "Cloak",
+			"name": "Cloak",
+			"energy": 2,
+			"power": 4,
+			"desc": "On Reveal: Next turn, all cards are Moveable to this location."
+		},
+		{
+			"id": "Cobra",
+			"name": "Cobra",
+			"energy": 2,
+			"power": 3,
+			"desc": "Activate: Destroy an enemy created card here."
+		},
+		{
+			"id": "ColleenWing",
+			"name": "Colleen Wing",
+			"energy": 2,
+			"power": 4,
+			"desc": "On Reveal: Discard the card that costs the least from your hand."
+		},
+		{
+			"id": "ColonelAmerica",
+			"name": "Colonel America",
+			"energy": 3,
+			"power": 4,
+			"desc": "Ongoing: Your other cards here have +1 Power for each turn you've discarded a card. (0 turns.)"
+		},
+		{
+			"id": "Colossus",
+			"name": "Colossus",
+			"energy": 2,
+			"power": 4,
+			"desc": "Ongoing: Can't be destroyed, moved, or have its Power reduced."
+		},
+		{
+			"id": "Copycat",
+			"name": "Copycat",
+			"energy": 3,
+			"power": 5,
+			"desc": "When you draw this, copy the text from the bottom card of your opponent's deck."
+		},
+		{
+			"id": "CorvusGlaive",
+			"name": "Corvus Glaive",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Discard 2 cards from your hand to get +1 Max Energy."
+		},
+		{
+			"id": "CosmicGhostRider",
+			"name": "Cosmic Ghost Rider",
+			"energy": 5,
+			"power": 6,
+			"desc": "On Reveal: Remove the text from front-row enemy cards here."
+		},
+		{
+			"id": "Cosmo",
+			"name": "Cosmo",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: On Reveal abilities won't happen here."
+		},
+		{
+			"id": "Crossbones",
+			"name": "Crossbones",
+			"energy": 4,
+			"power": 10,
+			"desc": "You can only play this at locations where you are winning."
+		},
+		{
+			"id": "Crystal",
+			"name": "Crystal",
+			"energy": 3,
+			"power": 6,
+			"desc": "On Reveal: Each player draws a card."
+		},
+		{
+			"id": "CullObsidian",
+			"name": "Cull Obsidian",
+			"energy": 4,
+			"power": 10,
+			"desc": "You can only play this where you have a 1-Cost card."
+		},
+		{
+			"id": "Cyclops",
+			"name": "Cyclops",
+			"energy": 3,
+			"power": 5,
+			"desc": "\"Let's move, X-Men.\""
+		},
+		{
+			"id": "Dagger",
+			"name": "Dagger",
+			"energy": 2,
+			"power": 2,
+			"desc": "When this moves to a location, +2 Power for each enemy card there."
+		},
+		{
+			"id": "Daken",
+			"name": "Daken",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Add the Muramasa Shard to your hand."
+		},
+		{
+			"id": "Danger",
+			"name": "Danger",
+			"energy": 4,
+			"power": 6,
+			"desc": "Activate: Destroy an enemy card here with less Power."
+		},
+		{
+			"id": "Daredevil",
+			"name": "Daredevil",
+			"energy": 2,
+			"power": 3,
+			"desc": "On turn 5, you get to see your opponent's plays before you make your own."
+		},
+		{
+			"id": "Darkhawk",
+			"name": "Darkhawk",
+			"energy": 5,
+			"power": 3,
+			"desc": "Ongoing: +2 Power for each card in your opponent's deck."
+		},
+		{
+			"id": "Dazzler",
+			"name": "Dazzler",
+			"energy": 2,
+			"power": 2,
+			"desc": "Ongoing: +2 Power for each location that's full on your side."
+		},
+		{
+			"id": "Deadpool",
+			"name": "Deadpool",
+			"energy": 1,
+			"power": 1,
+			"desc": "When Destroyed: Return this to your hand with double the Power."
+		},
+		{
+			"id": "DeafeningChord",
+			"name": "Deafening Chord",
+			"energy": 1,
+			"power": 0,
+			"desc": "On Reveal: Remove the text of a 3-Cost or lower enemy character here."
+		},
+		{
+			"id": "Death",
+			"name": "Death",
+			"energy": 8,
+			"power": 12,
+			"desc": "Costs 1 less for each card destroyed this game."
+		},
+		{
+			"id": "DeathFracturedFrontier",
+			"name": "Death Fractured Frontier",
+			"energy": 5,
+			"power": 9,
+			"desc": "On Reveal: Resurrect all your destroyed characters to random locations."
+		},
+		{
+			"id": "Deathlok",
+			"name": "Deathlok",
+			"energy": 3,
+			"power": 6,
+			"desc": "On Reveal: Destroy your other cards here."
+		},
+		{
+			"id": "Debrii",
+			"name": "Debrii",
+			"energy": 3,
+			"power": 7,
+			"desc": "On Reveal: Add a Rock to each other location."
+		},
+		{
+			"id": "Destroyer",
+			"name": "Destroyer",
+			"energy": 6,
+			"power": 18,
+			"desc": "On Reveal: Destroy your cards at other locations."
+		},
+		{
+			"id": "DevilDinosaur",
+			"name": "Devil Dinosaur",
+			"energy": 5,
+			"power": 4,
+			"desc": "Ongoing: +2 Power for each card in your hand."
+		},
+		{
+			"id": "Diamondback",
+			"name": "Diamondback",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: Enemy cards here afflicted with negative Power have an additional -2 Power."
+		},
+		{
+			"id": "DrDoom",
+			"name": "Doctor Doom",
+			"energy": 6,
+			"power": 5,
+			"desc": "On Reveal: Add a 5-Power DoomBot to each other location."
+		},
+		{
+			"id": "Doom2099",
+			"name": "Doctor Doom 2099",
+			"energy": 4,
+			"power": 6,
+			"desc": "End of Turn: Add a DoomBot 2099 to a random location if you played (exactly) 1 card."
+		},
+		{
+			"id": "DoctorOctopus",
+			"name": "Doctor Octopus",
+			"energy": 4,
+			"power": 8,
+			"desc": "On Reveal: Pull the lowest-Power character from your opponent's hand to their side of this location."
+		},
+		{
+			"id": "DoctorOctopusFracturedFrontier",
+			"name": "Doctor Octopus Fractured Frontier",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Put your leftmost card in hand on top of your deck to get a random character. Give both +3 Power."
+		},
+		{
+			"id": "DoctorStrange",
+			"name": "Doctor Strange",
+			"energy": 2,
+			"power": 4,
+			"desc": "On Reveal: Move your highest-Power card(s) to this location."
+		},
+		{
+			"id": "Domino",
+			"name": "Domino",
+			"energy": 2,
+			"power": 4,
+			"desc": "You always draw this card on turn 2, and not before."
+		},
+		{
+			"id": "Dormammu",
+			"name": "Dormammu",
+			"energy": 7,
+			"power": 13,
+			"desc": "Game Start: Begin a Summoning Ritual. (Add step 1 to hand.)"
+		},
+		{
+			"id": "Dracula",
+			"name": "Dracula",
+			"energy": 4,
+			"power": 1,
+			"desc": "At the end of the game, discard a card from your hand to gain its Power."
+		},
+		{
+			"id": "DragonLord",
+			"name": "Dragon Lord",
+			"energy": 5,
+			"power": 5,
+			"desc": "On Reveal: Put a card from your hand here."
+		},
+		{
+			"id": "DragonOfTheMoon",
+			"name": "Dragon of the Moon",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Steal 1 Power from even-costed cards in ALL hands."
+		},
+		{
+			"id": "Drax",
+			"name": "Drax",
+			"energy": 4,
+			"power": 6,
+			"desc": "On Reveal: If your opponent played a card here this turn, +4 Power."
+		},
+		{
+			"id": "DraxAvatarOfLife",
+			"name": "Drax, Avatar Of Life",
+			"energy": 3,
+			"power": 3,
+			"desc": "End of Turn: +3 Power if your opponent played a card with greater Power this turn. Move to that card if you'd be winning its location."
+		},
+		{
+			"id": "EbonyMaw",
+			"name": "Ebony Maw",
+			"energy": 1,
+			"power": 7,
+			"desc": "You can't play this after turn 3. Ongoing: You can't play cards here."
+		},
+		{
+			"id": "Echo",
+			"name": "Echo",
+			"energy": 1,
+			"power": 2,
+			"desc": "After your opponent plays an Ongoing card here, remove its abilities."
+		},
+		{
+			"id": "Electro",
+			"name": "Electro",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn."
+		},
+		{
+			"id": "Elektra",
+			"name": "Elektra",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Destroy an enemy 1-Cost card here."
+		},
+		{
+			"id": "Elixir",
+			"name": "Elixir",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: One of your cards destroyed last turn gets revived here."
+		},
+		{
+			"id": "ElsaBloodstone",
+			"name": "Elsa Bloodstone",
+			"energy": 3,
+			"power": 5,
+			"desc": "Each card you play to fill your side of a location gains +2 Power."
+		},
+		{
+			"id": "Hulkling",
+			"name": "Emperor Hulkling",
+			"energy": 6,
+			"power": 12,
+			"desc": "Game Start: Copy the text of a random 6-Cost card."
+		},
+		{
+			"id": "EnSabahNur",
+			"name": "En Sabah Nur",
+			"energy": 4,
+			"power": 6,
+			"desc": "Objective: Have a full front row at each location Transform into Apocalypse, Celestials' Chosen. (0/6)"
+		},
+		{
+			"id": "Enchantress",
+			"name": "Enchantress",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: Remove the abilities from all Ongoing cards here."
+		},
+		{
+			"id": "EntropicHavok",
+			"name": "Entropic Havok",
+			"energy": 3,
+			"power": 3,
+			"desc": "Start of Turn: Steal 1 bonus Energy from your opponent. (if they have any)"
+		},
+		{
+			"id": "EsmeCuckoo",
+			"name": "Esme Cuckoo",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Copy a card from your deck into your hand. Set its Cost to 3 and Power to 4."
+		},
+		{
+			"id": "Eson",
+			"name": "Eson",
+			"energy": 6,
+			"power": 10,
+			"desc": "End of Turn: Put a created card from your hand here."
+		},
+		{
+			"id": "EzekielSims",
+			"name": "Ezekiel Sims",
+			"energy": 2,
+			"power": 2,
+			"desc": "After you play a card with higher Power here, give this +2 Power and move this to another location."
+		},
+		{
+			"id": "Falcon",
+			"name": "Falcon",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Return your 1-Cost cards to your hand."
+		},
+		{
+			"id": "FanFei",
+			"name": "Fan Fei",
+			"energy": 4,
+			"power": 5,
+			"desc": "Activate: Give your other cards here +1 Power and move them to the right."
+		},
+		{
+			"id": "Fantasticar",
+			"name": "Fantasticar",
+			"energy": 4,
+			"power": 5,
+			"desc": "Activate: Give your End of Turn cards +2 Power."
+		},
+		{
+			"id": "Fantomex",
+			"name": "Fantomex",
+			"energy": 4,
+			"power": 7,
+			"desc": "Activate: If you've had cards discarded and destroyed, afflict front-row enemy cards at each location with -2 Power."
+		},
+		{
+			"id": "FastballSpecial",
+			"name": "Fastball Special",
+			"energy": 2,
+			"power": 0,
+			"desc": "On Reveal: Destroy your highest-Power card here to afflict an enemy card here with that much negative Power."
+		},
+		{
+			"id": "FenrisWolf",
+			"name": "Fenris Wolf",
+			"energy": 3,
+			"power": 4,
+			"desc": "Activate: Resurrect your opponent's highest-Power discarded or destroyed card on your side of this location."
+		},
+		{
+			"id": "FinFangFoom",
+			"name": "Fin Fang Foom",
+			"energy": 7,
+			"power": 14,
+			"desc": "On Reveal: Gain the Power of a front-row enemy card here."
+		},
+		{
+			"id": "Firehair",
+			"name": "Firehair",
+			"energy": 2,
+			"power": 4,
+			"desc": "When one of your cards is destroyed, this uses that card's On Reveal."
+		},
+		{
+			"id": "Firelord",
+			"name": "Firelord",
+			"energy": 4,
+			"power": 7,
+			"desc": "On Reveal: Revive one of your discarded or destroyed 3-Cost cards here."
+		},
+		{
+			"id": "Forge",
+			"name": "Forge",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Give the next card you play +2 Power."
+		},
+		{
+			"id": "Frigga",
+			"name": "Frigga",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Add a copy of the last card you played to your hand. (if able)"
+		},
+		{
+			"id": "Galacta",
+			"name": "Galacta",
+			"energy": 4,
+			"power": 6,
+			"desc": "Each turn, the first card you play at another location reveals with +2 Power."
+		},
+		{
+			"id": "Galactus",
+			"name": "Galactus",
+			"energy": 6,
+			"power": 6,
+			"desc": "On Reveal: If you're winning this location and this is your only card here, destroy all other locations."
+		},
+		{
+			"id": "GalactusFirstSteps",
+			"name": "Galactus First Steps",
+			"energy": 6,
+			"power": 11,
+			"desc": "My Herald is the next character I see you play. End of Turn: +2 Power if you're winning my Herald's location. (if in hand or in play)"
+		},
+		{
+			"id": "Gambit",
+			"name": "Gambit",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Discard a card from your hand to destroy a random enemy card."
+		},
+		{
+			"id": "GambitHorseman",
+			"name": "Gambit Horseman of Death",
+			"energy": 4,
+			"power": 6,
+			"desc": "Objective: Play 6 total Cost of created cards Randomly destroy up to 3 total Cost of enemy cards. (0/6)"
+		},
+		{
+			"id": "Gamora",
+			"name": "Gamora",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: If your opponent played a card here this turn, +4 Power."
+		},
+		{
+			"id": "Ghost",
+			"name": "Ghost",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Remove the abilities from all End of Turn cards here."
+		},
+		{
+			"id": "GhostRider",
+			"name": "Ghost Rider",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Bring back one of your discarded cards to this location."
+		},
+		{
+			"id": "GhostSpider",
+			"name": "Ghost-Spider",
+			"energy": 1,
+			"power": 3,
+			"desc": "On Reveal: The last card you played moves here."
+		},
+		{
+			"id": "Giganto",
+			"name": "Giganto",
+			"energy": 6,
+			"power": 16,
+			"desc": "You can only play this at the left location."
+		},
+		{
+			"id": "Gilgamesh",
+			"name": "Gilgamesh",
+			"energy": 5,
+			"power": 9,
+			"desc": "On Reveal: +1 Power for each of your other cards in play with increased Power."
+		},
+		{
+			"id": "Gladiator",
+			"name": "Gladiator",
+			"energy": 3,
+			"power": 8,
+			"desc": "On Reveal: Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it."
+		},
+		{
+			"id": "Goliath",
+			"name": "Goliath",
+			"energy": 2,
+			"power": 1,
+			"desc": "Ongoing: +1 Power for each other Ongoing card you have in play."
+		},
+		{
+			"id": "Goose",
+			"name": "Goose",
+			"energy": 2,
+			"power": 2,
+			"desc": "Ongoing: Nobody can play cards that cost 4 or more here."
+		},
+		{
+			"id": "Gorgon",
+			"name": "Gorgon",
+			"energy": 2,
+			"power": 3,
+			"desc": "Ongoing: Your opponent's created cards cost 1 more. (maximum 6)"
+		},
+		{
+			"id": "Gorr",
+			"name": "Gorr the God Butcher",
+			"energy": 6,
+			"power": 1,
+			"desc": "Ongoing: +2 Power for EACH On Reveal card in play."
+		},
+		{
+			"id": "GrandMaster",
+			"name": "Grand Master",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again."
+		},
+		{
+			"id": "GreenGoblin",
+			"name": "Green Goblin",
+			"energy": 3,
+			"power": -4,
+			"desc": "On Reveal: Switch sides."
+		},
+		{
+			"id": "Groot",
+			"name": "Groot",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: If your opponent played a card here this turn, +4 Power."
+		},
+		{
+			"id": "Gwenpool",
+			"name": "Gwenpool",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Pick a random character in your hand 3 times. Give +2 Power each time."
+		},
+		{
+			"id": "Herbie",
+			"name": "H.E.R.B.I.E.",
+			"energy": 2,
+			"power": 3,
+			"desc": "Each turn this is in play, swap to a new Activate ability until one is used."
+		},
+		{
+			"id": "Havok",
+			"name": "Havok",
+			"energy": 2,
+			"power": 1,
+			"desc": "End of Turn: You lose 1 Max Energy and this gains +3 Power."
+		},
+		{
+			"id": "Hawkeye",
+			"name": "Hawkeye",
+			"energy": 1,
+			"power": 1,
+			"desc": "On Reveal: If you play a card at this location next turn, +4 Power."
+		},
+		{
+			"id": "KateBishop",
+			"name": "Hawkeye Kate Bishop",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Add 2 Arrows to your hand."
+		},
+		{
+			"id": "Hazmat",
+			"name": "Hazmat",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Afflict all other cards with -1 Power."
+		},
+		{
+			"id": "Headpool",
+			"name": "Headpool",
+			"energy": 1,
+			"power": 1,
+			"desc": "When Destroyed: Return this to your hand, then give all cards in your hand +1 Power."
+		},
+		{
+			"id": "Heimdall",
+			"name": "Heimdall",
+			"energy": 6,
+			"power": 10,
+			"desc": "On Reveal: Move your other cards one location to the left."
+		},
+		{
+			"id": "Hela",
+			"name": "Hela",
+			"energy": 6,
+			"power": 6,
+			"desc": "On Reveal: For each different Cost among them, resurrect a card you discarded to a random location."
+		},
+		{
+			"id": "Helicarrier",
+			"name": "Helicarrier",
+			"energy": 6,
+			"power": 12,
+			"desc": "When Discarded: Fill your hand with random cards."
+		},
+		{
+			"id": "Hellcow",
+			"name": "Hellcow",
+			"energy": 4,
+			"power": 7,
+			"desc": "Activate: Discard a card from your hand."
+		},
+		{
+			"id": "Hellion",
+			"name": "Hellion",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: Next turn, your cards are Moveable to this location."
+		},
+		{
+			"id": "Hercules",
+			"name": "Hercules",
+			"energy": 3,
+			"power": 5,
+			"desc": "The first time another one of your cards moves here each turn, move it to another location."
+		},
+		{
+			"id": "HighEvolutionary",
+			"name": "High Evolutionary",
+			"energy": 4,
+			"power": 7,
+			"desc": "Game Start: Unlock the potential of your cards with no abilities."
+		},
+		{
+			"id": "HitMonkey",
+			"name": "Hit-Monkey",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Gain +2 Power for each other card you played this turn."
+		},
+		{
+			"id": "Hobgoblin",
+			"name": "Hobgoblin",
+			"energy": 5,
+			"power": -8,
+			"desc": "On Reveal: Switch sides."
+		},
+		{
+			"id": "HopeSummers",
+			"name": "Hope Summers",
+			"energy": 3,
+			"power": 4,
+			"desc": "After you play a card here, you get +1 Energy next turn."
+		},
+		{
+			"id": "HowardTheDuck",
+			"name": "Howard the Duck",
+			"energy": 1,
+			"power": 2,
+			"desc": "Ongoing: Tap this to see the top card of your deck."
+		},
+		{
+			"id": "Hulk",
+			"name": "Hulk",
+			"energy": 6,
+			"power": 14,
+			"desc": "\"HULK SMASH!\""
+		},
+		{
+			"id": "Hulkbuster",
+			"name": "Hulkbuster",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Merge this into one of your cards here."
+		},
+		{
+			"id": "HumanTorch",
+			"name": "Human Torch",
+			"energy": 3,
+			"power": 2,
+			"desc": "When this moves, double its Power."
+		},
+		{
+			"id": "HumanTorchFirstSteps",
+			"name": "Human Torch First Steps",
+			"energy": 3,
+			"power": 2,
+			"desc": "End of Turn: +1 Power. Once per game, if your side here is full, double this card's Power instead."
+		},
+		{
+			"id": "HydraBob",
+			"name": "Hydra Bob",
+			"energy": 1,
+			"power": 4,
+			"desc": "End of Turn: This moves if a player Snapped."
+		},
+		{
+			"id": "HydraStomper",
+			"name": "Hydra Stomper",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: +1 Power for each time one of your cards moved this game."
+		},
+		{
+			"id": "HydroMan",
+			"name": "Hydro-Man",
+			"energy": 5,
+			"power": 10,
+			"desc": "On Reveal: Set the Cost of EACH deck's top card to 1."
+		},
+		{
+			"id": "Iceman",
+			"name": "Iceman",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Give a card in your opponent's hand +1 Cost. (maximum 6)"
+		},
+		{
+			"id": "Ikari",
+			"name": "Ikari",
+			"energy": 4,
+			"power": 12,
+			"desc": "You can only play this where an enemy is afflicted with negative Power."
+		},
+		{
+			"id": "InfinityUltron",
+			"name": "Infinity Ultron",
+			"energy": 5,
+			"power": 6,
+			"desc": "On Reveal: Add 2 of Ultron's Stones to your hand."
+		},
+		{
+			"id": "InvisibleWoman",
+			"name": "Invisible Woman",
+			"energy": 2,
+			"power": 4,
+			"desc": "Ongoing: Cards you play here are not revealed until the game ends."
+		},
+		{
+			"id": "InvisibleWomanFirstSteps",
+			"name": "Invisible Woman First Steps",
+			"energy": 3,
+			"power": 3,
+			"desc": "Activate: This turn, your End of Turn abilities repeat."
+		},
+		{
+			"id": "IronFist",
+			"name": "Iron Fist",
+			"energy": 1,
+			"power": 3,
+			"desc": "On Reveal: After you play your next card, move it one location to the left."
+		},
+		{
+			"id": "IronLad",
+			"name": "Iron Lad",
+			"energy": 4,
+			"power": 7,
+			"desc": "On Reveal: Copy the text of your deck's top card."
+		},
+		{
+			"id": "IronMan",
+			"name": "Iron Man",
+			"energy": 5,
+			"power": 0,
+			"desc": "Ongoing: Your total Power is doubled here."
+		},
+		{
+			"id": "IronPatriot",
+			"name": "Iron Patriot",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Add a random 4-Cost or more card to your hand. If you're winning here after next turn, give it -3 Cost."
+		},
+		{
+			"id": "Ironheart",
+			"name": "Ironheart",
+			"energy": 3,
+			"power": 0,
+			"desc": "On Reveal: Give 2 of your other cards +3 Power."
+		},
+		{
+			"id": "Isca",
+			"name": "Isca the Unbeaten",
+			"energy": 4,
+			"power": 2,
+			"desc": "End of Turn: If you're losing this location, double this card's Power."
+		},
+		{
+			"id": "JJonahJameson",
+			"name": "J. Jonah Jameson",
+			"energy": 1,
+			"power": 3,
+			"desc": "Ongoing: Your text emotes are ruder."
+		},
+		{
+			"id": "JackFlag",
+			"name": "Jack Flag",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: Your cards here with increased Power have +2 Power."
+		},
+		{
+			"id": "JaneFosterFracturedFrontier",
+			"name": "Jane Foster Fractured Frontier",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Judge 4 other random characters. +1 Power (if yours) or -1 Power (enemies). Quickdraw: Judge the worthy again."
+		},
+		{
+			"id": "JaneFoster",
+			"name": "Jane Foster Mighty Thor",
+			"energy": 5,
+			"power": 9,
+			"desc": "On Reveal: Draw all cards that cost 0 from your deck."
+		},
+		{
+			"id": "JeanGrey",
+			"name": "Jean Grey",
+			"energy": 3,
+			"power": 4,
+			"desc": "Ongoing: Players must play their first card here each turn. (if possible)"
+		},
+		{
+			"id": "JeffTheBabyDolphin",
+			"name": "Jeff the Baby Dolphin!?",
+			"energy": 2,
+			"power": 2,
+			"desc": "Your cards reveal here with +1 Power. Moveable once."
+		},
+		{
+			"id": "JeffTheBabyLandShark",
+			"name": "Jeff the Baby Land Shark",
+			"energy": 2,
+			"power": 4,
+			"desc": "Moveable once. Nothing can stop you from moving or playing this to any location."
+		},
+		{
+			"id": "JenniferKale",
+			"name": "Jennifer Kale",
+			"energy": 2,
+			"power": 3,
+			"desc": "Activate: Next turn, you get +1 Energy."
+		},
+		{
+			"id": "JessicaJones",
+			"name": "Jessica Jones",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: If you don't play a card at this location next turn, +5 Power."
+		},
+		{
+			"id": "JimHammond",
+			"name": "Jim Hammond Human Torch",
+			"energy": 1,
+			"power": 2,
+			"desc": "Start of Turn: +1 Power for each bonus Energy you have."
+		},
+		{
+			"id": "JoaquinTorres",
+			"name": "Joaquin Torres Falcon II",
+			"energy": 2,
+			"power": 3,
+			"desc": "Ongoing: The On Reveal abilities of your 1-Cost cards here repeat."
+		},
+		{
+			"id": "Jocasta",
+			"name": "Jocasta",
+			"energy": 3,
+			"power": 3,
+			"desc": "Activate: Immediately Activate your other cards here. (without using up their Activate abilities)"
+		},
+		{
+			"id": "Jubilee",
+			"name": "Jubilee",
+			"energy": 4,
+			"power": 1,
+			"desc": "On Reveal: Add the top card of your deck to this location."
+		},
+		{
+			"id": "JubileeSilverSurfer",
+			"name": "Jubilee Silver Surfer",
+			"energy": 4,
+			"power": 3,
+			"desc": "When you draw a card, add this card's Power to it."
+		},
+		{
+			"id": "Juggernaut",
+			"name": "Juggernaut",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Move away all enemy cards played here this turn. (including unrevealed cards)"
+		},
+		{
+			"id": "JuggernautHorseman",
+			"name": "Juggernaut Horseman of War",
+			"energy": 2,
+			"power": 2,
+			"desc": "Objective: Have 6 different Powers among your other cards in play +6 Power. (0/6)"
+		},
+		{
+			"id": "KaZar",
+			"name": "Ka-Zar",
+			"energy": 4,
+			"power": 6,
+			"desc": "Ongoing: Your 1-Cost cards have +1 Power."
+		},
+		{
+			"id": "Kahhori",
+			"name": "Kahhori",
+			"energy": 4,
+			"power": 7,
+			"desc": "On Reveal: Each card in your hand gives one of your other cards in play +1 Power."
+		},
+		{
+			"id": "Kang",
+			"name": "Kang",
+			"energy": 3,
+			"power": 4,
+			"desc": "Game Start: Replace this with 4 Kangs with text from random cards that Cost 3 or more."
+		},
+		{
+			"id": "KarenPage",
+			"name": "Karen Page",
+			"energy": 4,
+			"power": 6,
+			"desc": "On Reveal: Give one of your 1, 2, and 3-Cost characters +2 Power each."
+		},
+		{
+			"id": "Khonshu",
+			"name": "Khonshu",
+			"energy": 6,
+			"power": 5,
+			"desc": "When Discarded: Return in its next phase. On Reveal: Resurrect a character you discarded to another location with its Power set to 5."
+		},
+		{
+			"id": "KidOmega",
+			"name": "Kid Omega",
+			"energy": 2,
+			"power": 1,
+			"desc": "Activate: Destroy the next card you play this turn to gain its Power."
+		},
+		{
+			"id": "Killmonger",
+			"name": "Killmonger",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Destroy ALL 1-Cost cards."
+		},
+		{
+			"id": "KingEitri",
+			"name": "King Eitri",
+			"energy": 1,
+			"power": 3,
+			"desc": "Activate: Draw a created card from your deck."
+		},
+		{
+			"id": "Kingpin",
+			"name": "Kingpin",
+			"energy": 1,
+			"power": 3,
+			"desc": "When an enemy card moves here, afflict it with -2 Power."
+		},
+		{
+			"id": "KittyPryde",
+			"name": "Kitty Pryde",
+			"energy": 1,
+			"power": 1,
+			"desc": "Start of Turn: Return this to your hand. When this returns to your hand, +1 Power."
+		},
+		{
+			"id": "Klaw",
+			"name": "Klaw",
+			"energy": 4,
+			"power": 2,
+			"desc": "Ongoing: The location to the right has +6 Power."
+		},
+		{
+			"id": "Kluh",
+			"name": "Kluh",
+			"energy": 5,
+			"power": 10,
+			"desc": "On Reveal: EACH player randomly gives a card in their hand -1 Cost for each different Cost among their cards in play."
+		},
+		{
+			"id": "Knull",
+			"name": "Knull",
+			"energy": 6,
+			"power": 0,
+			"desc": "Ongoing: Has the combined Power of all cards destroyed this game."
+		},
+		{
+			"id": "Korg",
+			"name": "Korg",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Shuffle a Rock into your opponent's deck."
+		},
+		{
+			"id": "Kraglin",
+			"name": "Kraglin",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Banish the top card of your deck. If it was 4-Cost or more, +2 Energy next turn, otherwise give this +4 Power."
+		},
+		{
+			"id": "Kraven",
+			"name": "Kraven",
+			"energy": 2,
+			"power": 3,
+			"desc": "When a card moves here, this gains +2 Power."
+		},
+		{
+			"id": "LadyBullseye",
+			"name": "Lady Bullseye",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Afflict an enemy card with -2 Power. Repeat on a different enemy for each of your unspent Energy."
+		},
+		{
+			"id": "LadyDeathstrike",
+			"name": "Lady Deathstrike",
+			"energy": 5,
+			"power": 7,
+			"desc": "On Reveal: Destroy each card here with 3 or less Power."
+		},
+		{
+			"id": "LadySif",
+			"name": "Lady Sif",
+			"energy": 3,
+			"power": 6,
+			"desc": "On Reveal: Discard the card that costs the most from your hand."
+		},
+		{
+			"id": "Lasher",
+			"name": "Lasher",
+			"energy": 2,
+			"power": 2,
+			"desc": "Activate: Afflict an enemy card here with negative Power equal to this card's Power."
+		},
+		{
+			"id": "Laufey",
+			"name": "Laufey",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Steal 1 Power from each other card here."
+		},
+		{
+			"id": "Leader",
+			"name": "Leader",
+			"energy": 6,
+			"power": 5,
+			"desc": "On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side."
+		},
+		{
+			"id": "Leech",
+			"name": "Leech",
+			"energy": 4,
+			"power": 4,
+			"desc": "On Reveal: Remove the text from 6-Cost cards in your opponent's hand."
+		},
+		{
+			"id": "Legion",
+			"name": "Legion",
+			"energy": 5,
+			"power": 7,
+			"desc": "On Reveal: Replace each other location with this one."
+		},
+		{
+			"id": "LinLie",
+			"name": "Lin Lie Iron Fist",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Add the Sword of Fu Xi to another location."
+		},
+		{
+			"id": "Lizard",
+			"name": "Lizard",
+			"energy": 2,
+			"power": 6,
+			"desc": "Ongoing: -4 Power if your opponent has 4 cards here."
+		},
+		{
+			"id": "Lockheed",
+			"name": "Lockheed",
+			"energy": 2,
+			"power": 2,
+			"desc": "End of Turn: If you played a 1-Cost card this turn, afflict an enemy card here with -2 Power."
+		},
+		{
+			"id": "Lockjaw",
+			"name": "Lockjaw",
+			"energy": 2,
+			"power": 3,
+			"desc": "Activate: After you play your next character, swap it with one from your deck."
+		},
+		{
+			"id": "Loki",
+			"name": "Loki",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost."
+		},
+		{
+			"id": "LukeCage",
+			"name": "Luke Cage",
+			"energy": 2,
+			"power": 2,
+			"desc": "Ongoing: Your front-row cards can't have their Power reduced."
+		},
+		{
+			"id": "LunaSnow",
+			"name": "Luna Snow",
+			"energy": 3,
+			"power": 6,
+			"desc": "On Reveal: Add an Ice Cube to each side of this location."
+		},
+		{
+			"id": "Modok",
+			"name": "M.O.D.O.K.",
+			"energy": 5,
+			"power": 7,
+			"desc": "On Reveal: Discard your hand."
+		},
+		{
+			"id": "MBaku",
+			"name": "M'Baku",
+			"energy": 1,
+			"power": 3,
+			"desc": "At the end of the game, this jumps from your deck to your lowest-Power location. (that isn't full)"
+		},
+		{
+			"id": "MadThinker",
+			"name": "Mad Thinker",
+			"energy": 1,
+			"power": 3,
+			"desc": "Start of Turn (after drawing): +2 Power if your hand is full."
+		},
+		{
+			"id": "MadameWeb",
+			"name": "Madame Web",
+			"energy": 2,
+			"power": 1,
+			"desc": "Ongoing: Each turn, one of your other cards here is Moveable. (your choice)"
+		},
+		{
+			"id": "Magik",
+			"name": "Magik",
+			"energy": 3,
+			"power": 2,
+			"desc": "On Reveal: Replace this location with 'Limbo'. Doesn't work after turn 5."
+		},
+		{
+			"id": "Magneto",
+			"name": "Magneto",
+			"energy": 6,
+			"power": 12,
+			"desc": "On Reveal: Move all enemy 3 and 4-Cost cards to this location."
+		},
+		{
+			"id": "Magus",
+			"name": "Magus",
+			"energy": 2,
+			"power": 4,
+			"desc": "Activate: Copy the text of a character in your deck with Cost equal to your unspent Energy. (without using its On Reveal)"
+		},
+		{
+			"id": "MajesticWingbeat",
+			"name": "Majestic Wingbeat",
+			"energy": 1,
+			"power": 0,
+			"desc": "On Reveal: Give the leftmost card in your hand +3 Power. If it's 5-Cost or more, -1 Cost too."
+		},
+		{
+			"id": "MajorVictory",
+			"name": "Major Victory",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Add 2 members of the Guardians crew to your hand."
+		},
+		{
+			"id": "Makkari",
+			"name": "Makkari",
+			"energy": 3,
+			"power": 3,
+			"desc": "End of Turn: Runs from your hand to a random location. (if possible)"
+		},
+		{
+			"id": "Malekith",
+			"name": "Malekith",
+			"energy": 4,
+			"power": 6,
+			"desc": "On Reveal: Add a 3-Cost or less card from your deck here, but don't reveal it until the game ends."
+		},
+		{
+			"id": "ManSpider",
+			"name": "Man-Spider",
+			"energy": 5,
+			"power": 1,
+			"desc": "On Reveal: Merge the last card you played into this. When this merges, double its Power."
+		},
+		{
+			"id": "ManThing",
+			"name": "Man-Thing",
+			"energy": 4,
+			"power": 7,
+			"desc": "Ongoing: 3-Cost or less cards here have -2 Power."
+		},
+		{
+			"id": "Mantis",
+			"name": "Mantis",
+			"energy": 1,
+			"power": 3,
+			"desc": "On Reveal: If your opponent played any cards here this turn, copy one of them into your hand."
+		},
+		{
+			"id": "MariaHill",
+			"name": "Maria Hill",
+			"energy": 1,
+			"power": 3,
+			"desc": "On Reveal: Add a random 2-Cost card to your hand."
+		},
+		{
+			"id": "Marrow",
+			"name": "Marrow",
+			"energy": 2,
+			"power": 3,
+			"desc": "When Discarded or Destroyed: Randomly split -7 Power among enemy cards."
+		},
+		{
+			"id": "Martyr",
+			"name": "Martyr",
+			"energy": 1,
+			"power": 5,
+			"desc": "At the end of the game, move to a location that LOSES you the game. (if possible)"
+		},
+		{
+			"id": "MarvelBoy",
+			"name": "Marvel Boy",
+			"energy": 3,
+			"power": 2,
+			"desc": "End of Turn: Give 3 of your 1-Cost cards +1 Power."
+		},
+		{
+			"id": "MaryJane",
+			"name": "Mary Jane",
+			"energy": 3,
+			"power": 3,
+			"desc": "End of Turn: Give each of your cards that moved this turn +1 Power."
+		},
+		{
+			"id": "MasterMold",
+			"name": "Master Mold",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Add 2 Sentinel to your opponent's hand."
+		},
+		{
+			"id": "Maverick",
+			"name": "Maverick",
+			"energy": 3,
+			"power": 2,
+			"desc": "Activate: Give the next card you play Power equal to this card's Power."
+		},
+		{
+			"id": "Maximus",
+			"name": "Maximus",
+			"energy": 2,
+			"power": 6,
+			"desc": "On Reveal: Your opponent draws 2 cards."
+		},
+		{
+			"id": "Medusa",
+			"name": "Medusa",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: If this is at the middle location, +3 Power."
+		},
+		{
+			"id": "Mercury",
+			"name": "Mercury",
+			"energy": 3,
+			"power": 4,
+			"desc": "Moveable once. Ongoing: Enemy cards here can't move."
+		},
+		{
+			"id": "Merlin",
+			"name": "Merlin",
+			"energy": 2,
+			"power": 2,
+			"desc": "Start of Turn: Add an Incantation to your hand."
+		},
+		{
+			"id": "Miek",
+			"name": "Miek",
+			"energy": 1,
+			"power": 1,
+			"desc": "When you discard a card, this gains +1 Power and Moveable next turn."
+		},
+		{
+			"id": "MilesMorales",
+			"name": "Miles Morales Spider-Man",
+			"energy": 4,
+			"power": 6,
+			"desc": "If a card moved last turn, this costs 1."
+		},
+		{
+			"id": "Mirage",
+			"name": "Mirage",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Copy the character that costs the least from your opponent's hand into your hand. Give it +2 Power."
+		},
+		{
+			"id": "Misery",
+			"name": "Misery",
+			"energy": 4,
+			"power": 8,
+			"desc": "On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them."
+		},
+		{
+			"id": "MrFantastic",
+			"name": "Mister Fantastic",
+			"energy": 3,
+			"power": 1,
+			"desc": "Ongoing: Adjacent locations have +3 Power."
+		},
+		{
+			"id": "MrFantasticFirstSteps",
+			"name": "Mister Fantastic First Steps",
+			"energy": 3,
+			"power": 5,
+			"desc": "End of Turn: Give a card in your hand -1 Cost or +3 Power."
+		},
+		{
+			"id": "MrNegative",
+			"name": "Mister Negative",
+			"energy": 4,
+			"power": -1,
+			"desc": "On Reveal: Swap the Power and Cost of all cards in your deck."
+		},
+		{
+			"id": "MrSinister",
+			"name": "Mister Sinister",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Add a Sinister Clone here with the same Power."
+		},
+		{
+			"id": "MistyKnight",
+			"name": "Misty Knight",
+			"energy": 1,
+			"power": 3,
+			"desc": "\"We've got to save this city.\""
+		},
+		{
+			"id": "MobiusMMobius",
+			"name": "Mobius M. Mobius",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: Your Costs can't be increased. Your opponent's Costs can't be reduced."
+		},
+		{
+			"id": "Mockingbird",
+			"name": "Mockingbird",
+			"energy": 6,
+			"power": 9,
+			"desc": "Costs 1 less for each of your created cards in play."
+		},
+		{
+			"id": "MoiraX",
+			"name": "Moira X",
+			"energy": 1,
+			"power": 2,
+			"desc": "When Destroyed: Get a copy of your opening hand."
+		},
+		{
+			"id": "Mojo",
+			"name": "Mojo",
+			"energy": 2,
+			"power": 2,
+			"desc": "Ongoing: If both sides here are full, +6 Power."
+		},
+		{
+			"id": "MoleMan",
+			"name": "Mole Man",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Banish the top card of your deck. Add 2 Rocks to your hand. Set their Power to the banished card's Cost."
+		},
+		{
+			"id": "MonstroOctopus",
+			"name": "Monstro",
+			"energy": 8,
+			"power": 8,
+			"desc": "This card's cost is reduced by the cost of your deck's top card."
+		},
+		{
+			"id": "MoonGirl",
+			"name": "Moon Girl",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Copy your hand."
+		},
+		{
+			"id": "MoonKnight",
+			"name": "Moon Knight",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Discard an even-costed card from each player's hand."
+		},
+		{
+			"id": "Moondragon",
+			"name": "Moondragon",
+			"energy": 2,
+			"power": 1,
+			"desc": "End of Turn: +2 Power if you played 1 card this turn and spent all your Energy."
+		},
+		{
+			"id": "Moonstone",
+			"name": "Moonstone",
+			"energy": 4,
+			"power": 6,
+			"desc": "Ongoing: Has the Ongoing effects of your 3-Cost or less cards here."
+		},
+		{
+			"id": "Morbius",
+			"name": "Morbius",
+			"energy": 2,
+			"power": 0,
+			"desc": "Ongoing: +2 Power for each time you discarded a card this game."
+		},
+		{
+			"id": "MorganLeFay",
+			"name": "Morgan le Fay",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Return all your discarded and destroyed cards to hand with +3 Power."
+		},
+		{
+			"id": "Morph",
+			"name": "Morph",
+			"energy": 3,
+			"power": 0,
+			"desc": "On Reveal: Become a copy of a card in your opponent's hand."
+		},
+		{
+			"id": "MotherAskani",
+			"name": "Mother Askani",
+			"energy": 4,
+			"power": 4,
+			"desc": "On Reveal: Copy the leftmost card in your hand. Give the copy -1 Cost and +2 Power."
+		},
+		{
+			"id": "MsMarvel",
+			"name": "Ms. Marvel",
+			"energy": 4,
+			"power": 5,
+			"desc": "Ongoing: Your adjacent locations with 2+ cards and no repeated Costs have +6 Power."
+		},
+		{
+			"id": "MultipleMan",
+			"name": "Multiple Man",
+			"energy": 2,
+			"power": 4,
+			"desc": "When this moves, add a copy to the old location."
+		},
+		{
+			"id": "Muse",
+			"name": "Muse",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: +3 Power for each location where one of your cards has been destroyed."
+		},
+		{
+			"id": "Mysterio",
+			"name": "Mysterio",
+			"energy": 2,
+			"power": 5,
+			"desc": "On Reveal: Add an Illusion to another location. Activate: Swap Power with it."
+		},
+		{
+			"id": "Mystique",
+			"name": "Mystique",
+			"energy": 3,
+			"power": 1,
+			"desc": "On Reveal: If the last card you played has an Ongoing, copy its text. (if able)"
+		},
+		{
+			"id": "Nakia",
+			"name": "Nakia",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Give all cards in your hand +1 Power."
+		},
+		{
+			"id": "Namor",
+			"name": "Namor",
+			"energy": 4,
+			"power": 6,
+			"desc": "Ongoing: +5 Power if this is your only card here."
+		},
+		{
+			"id": "Namora",
+			"name": "Namora",
+			"energy": 5,
+			"power": 7,
+			"desc": "On Reveal: Give +5 Power to each of your cards alone at another location."
+		},
+		{
+			"id": "Namorita",
+			"name": "Namorita",
+			"energy": 3,
+			"power": 5,
+			"desc": "When you draw a card, give it -1 Cost if this is your only card here."
+		},
+		{
+			"id": "Nebula",
+			"name": "Nebula",
+			"energy": 1,
+			"power": 1,
+			"desc": "Each turn your opponent doesn't play a card here, +2 Power. (except the turn you play this)"
+		},
+		{
+			"id": "NegasonicTeenageWarhead",
+			"name": "Negasonic Teenage Warhead",
+			"energy": 4,
+			"power": 4,
+			"desc": "After an enemy character is played here, destroy it. (once per game)"
+		},
+		{
+			"id": "NicholasScratch",
+			"name": "Nicholas Scratch",
+			"energy": 1,
+			"power": 3,
+			"desc": "After you play a skill, +1 Power."
+		},
+		{
+			"id": "NickFury",
+			"name": "Nick Fury",
+			"energy": 4,
+			"power": 6,
+			"desc": "On Reveal: Add 3 random 6-Cost cards to your hand."
+		},
+		{
+			"id": "NicoMinoru",
+			"name": "Nico Minoru",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: After you play your next card, cast a spell. (The spell changes each turn.)"
+		},
+		{
+			"id": "Nightcrawler",
+			"name": "Nightcrawler",
+			"energy": 1,
+			"power": 3,
+			"desc": "Moveable once."
+		},
+		{
+			"id": "Nightmare",
+			"name": "Nightmare",
+			"energy": 3,
+			"power": 1,
+			"desc": "On Reveal: Replace the text of each card in your hand with text from a random card of the same Cost."
+		},
+		{
+			"id": "Nimrod",
+			"name": "Nimrod",
+			"energy": 5,
+			"power": 6,
+			"desc": "When Destroyed: Add a copy of this to each other location."
+		},
+		{
+			"id": "Nocturne",
+			"name": "Nocturne",
+			"energy": 3,
+			"power": 5,
+			"desc": "Moveable once. When this moves, replace its location with a random new one."
+		},
+		{
+			"id": "Nova",
+			"name": "Nova",
+			"energy": 1,
+			"power": 1,
+			"desc": "When Destroyed: Give your cards +1 Power."
+		},
+		{
+			"id": "FrankieRaye",
+			"name": "Nova Frankie Raye",
+			"energy": 2,
+			"power": 3,
+			"desc": "After the next time you play a 6-Cost card, double this card's Power."
+		},
+		{
+			"id": "Odin",
+			"name": "Odin",
+			"energy": 6,
+			"power": 10,
+			"desc": "On Reveal: Repeat the On Reveal abilities of your other cards here."
+		},
+		{
+			"id": "Okoye",
+			"name": "Okoye",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Give every card in your deck +1 Power."
+		},
+		{
+			"id": "OmegaRed",
+			"name": "Omega Red",
+			"energy": 4,
+			"power": 6,
+			"desc": "Ongoing: If you're winning here, +3 Power to other locations."
+		},
+		{
+			"id": "KarimaShapandar",
+			"name": "Omega Sentinel",
+			"energy": 4,
+			"power": 3,
+			"desc": "Activate: Afflict the highest-Power enemy card with -7 Power."
+		},
+		{
+			"id": "Onslaught",
+			"name": "Onslaught",
+			"energy": 6,
+			"power": 8,
+			"desc": "Ongoing: Your other Ongoing effects here apply an additional time."
+		},
+		{
+			"id": "Orka",
+			"name": "Orka",
+			"energy": 6,
+			"power": 11,
+			"desc": "Ongoing: +7 Power if this is your only card here."
+		},
+		{
+			"id": "Ozymandias",
+			"name": "Ozymandias",
+			"energy": 5,
+			"power": 9,
+			"desc": "Ongoing: Your Rocks have +3 Power."
+		},
+		{
+			"id": "Patriot",
+			"name": "Patriot",
+			"energy": 3,
+			"power": 2,
+			"desc": "Ongoing: Your cards with no abilities have +2 Power."
+		},
+		{
+			"id": "PeniParker",
+			"name": "Peni Parker",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Add SP//dr to your hand. When this merges, you get +1 Energy next turn."
+		},
+		{
+			"id": "Phastos",
+			"name": "Phastos",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Give each card in your deck -1 Cost or +2 Power."
+		},
+		{
+			"id": "ThePhoenixForce",
+			"name": "Phoenix Force",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Revive one of your destroyed cards and merge this into it. It gains Moveable."
+		},
+		{
+			"id": "Pixie",
+			"name": "Pixie",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Shuffle the base Costs of all cards in your deck that started there."
+		},
+		{
+			"id": "Polaris",
+			"name": "Polaris",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Move an enemy 1 or 2-Cost card to this location."
+		},
+		{
+			"id": "PolarisHorseman",
+			"name": "Polaris Horseman of Pestilence",
+			"energy": 2,
+			"power": 2,
+			"desc": "Objective: Cards in play are afflicted with -5 Power Put a card from your hand here. (0/5)"
+		},
+		{
+			"id": "Prodigy",
+			"name": "Prodigy",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: If this is in the back row, copy the text of the card in front of it."
+		},
+		{
+			"id": "ProfessorX",
+			"name": "Professor X",
+			"energy": 5,
+			"power": 2,
+			"desc": "Ongoing: Moving is the only way to add or remove a character from here."
+		},
+		{
+			"id": "Prowler",
+			"name": "Prowler",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Add 2 Thief's Tools to your hand. Set their Costs to 0 if a card moved last turn."
+		},
+		{
+			"id": "ProximaMidnight",
+			"name": "Proxima Midnight",
+			"energy": 4,
+			"power": 7,
+			"desc": "When Discarded: This jumps to your lowest-Power location. (that isn't full)"
+		},
+		{
+			"id": "Psylocke",
+			"name": "Psylocke",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Next turn, you get +1 Energy."
+		},
+		{
+			"id": "PsylockeFracturedFrontier",
+			"name": "Psylocke Fractured Frontier",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Give cards in your hand that are 5-Cost or more -1 Cost. Quickdraw: Your whole hand instead."
+		},
+		{
+			"id": "Punisher",
+			"name": "Punisher",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: +1 Power for each enemy card here."
+		},
+		{
+			"id": "PunisherWarMachine",
+			"name": "Punisher War Machine",
+			"energy": 2,
+			"power": 2,
+			"desc": "When drawn, mark one of your empty locations. Objective: Win that location +1 Max Energy."
+		},
+		{
+			"id": "Quake",
+			"name": "Quake",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Swap the positions of the other two locations."
+		},
+		{
+			"id": "Quicksand",
+			"name": "Quicksand",
+			"energy": 2,
+			"power": 4,
+			"desc": "The next time your opponent would start a turn with bonus Energy, they don't get it."
+		},
+		{
+			"id": "Quicksilver",
+			"name": "Quicksilver",
+			"energy": 1,
+			"power": 2,
+			"desc": "Starts in your opening hand."
+		},
+		{
+			"id": "Quinjet",
+			"name": "Quinjet",
+			"energy": 1,
+			"power": 1,
+			"desc": "Ongoing: Your created cards cost 1 less. (minimum 1)"
+		},
+		{
+			"id": "RamaTut",
+			"name": "Rama-Tut",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Use 3 On Reveals from cards released before Rama-Tut's time."
+		},
+		{
+			"id": "RavonnaRenslayer",
+			"name": "Ravonna Renslayer",
+			"energy": 2,
+			"power": 2,
+			"desc": "Ongoing: Your cards with 1 or less Power cost 1 less. (minimum 1)"
+		},
+		{
+			"id": "RedGuardian",
+			"name": "Red Guardian",
+			"energy": 3,
+			"power": 2,
+			"desc": "On Reveal: Afflict the lowest-Power enemy card here with -2 Power and remove its text."
+		},
+		{
+			"id": "RedHulk",
+			"name": "Red Hulk",
+			"energy": 6,
+			"power": 10,
+			"desc": "End of Turn: If your opponent has unspent Energy, +3 Power. (if in hand or in play)"
+		},
+		{
+			"id": "RedHulkFracturedFrontier",
+			"name": "Red Hulk Fractured Frontier",
+			"energy": 3,
+			"power": 8,
+			"desc": "On Reveal: -1 Power for each enemy card here. Quickdraw: +1 Power instead."
+		},
+		{
+			"id": "RedOnslaught",
+			"name": "Red Onslaught",
+			"energy": 4,
+			"power": 4,
+			"desc": "Ongoing: Has 3 random Ongoing abilities."
+		},
+		{
+			"id": "RedShift",
+			"name": "Red Shift",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Discard the leftmost card in your hand to add a random card with the same Cost to your hand."
+		},
+		{
+			"id": "RedSkull",
+			"name": "Red Skull",
+			"energy": 5,
+			"power": 14,
+			"desc": "Ongoing: Enemy cards here have +2 Power."
+		},
+		{
+			"id": "RedWolfFracturedFrontier",
+			"name": "Red Wolf Fractured Frontier",
+			"energy": 2,
+			"power": 1,
+			"desc": "On Reveal: +1 Power for each card in your hand. Quickdraw: Give your hand +1 Power."
+		},
+		{
+			"id": "Redwing",
+			"name": "Redwing",
+			"energy": 3,
+			"power": 5,
+			"desc": "The first time this moves, add a card from your hand to the old location."
+		},
+		{
+			"id": "Rescue",
+			"name": "Rescue",
+			"energy": 4,
+			"power": 4,
+			"desc": "On Reveal: If you play a card at this location next turn, +5 Power."
+		},
+		{
+			"id": "Rhino",
+			"name": "Rhino",
+			"energy": 2,
+			"power": 5,
+			"desc": "On Reveal: Add a Rock to your side of this location."
+		},
+		{
+			"id": "RocketAndGroot",
+			"name": "Rocket and Groot",
+			"energy": 3,
+			"power": 3,
+			"desc": "Moveable once. After your opponent plays a card here, steal 1 Power from it."
+		},
+		{
+			"id": "RocketRaccoon",
+			"name": "Rocket Raccoon",
+			"energy": 1,
+			"power": 1,
+			"desc": "On Reveal: If your opponent played a card here this turn, +4 Power."
+		},
+		{
+			"id": "Rockslide",
+			"name": "Rockslide",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Shuffle 2 Rocks into your opponent's deck."
+		},
+		{
+			"id": "Rogue",
+			"name": "Rogue",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Steal the text from an enemy Ongoing card here."
+		},
+		{
+			"id": "RogueScionOfDivision",
+			"name": "Rogue Scion of Division",
+			"energy": 5,
+			"power": 5,
+			"desc": "On Reveal: Steal the text of the highest-Cost card in your opponent's hand."
+		},
+		{
+			"id": "Ronan",
+			"name": "Ronan the Accuser",
+			"energy": 5,
+			"power": 5,
+			"desc": "Ongoing: +2 Power for each card in your opponent's hand."
+		},
+		{
+			"id": "Sabretooth",
+			"name": "Sabretooth",
+			"energy": 3,
+			"power": 5,
+			"desc": "When Destroyed: Return this to your hand. It costs 0."
+		},
+		{
+			"id": "Sage",
+			"name": "Sage",
+			"energy": 3,
+			"power": 0,
+			"desc": "On Reveal: +2 Power for each different Power among all other cards here."
+		},
+		{
+			"id": "SamWilson",
+			"name": "Sam Wilson Captain America",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Add Cap's Shield to another location. Ongoing: Cap's Shield is Moveable."
+		},
+		{
+			"id": "Sandman",
+			"name": "Sandman",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: Next turn, cards cost 1 more. (maximum 6)"
+		},
+		{
+			"id": "Sandstorm",
+			"name": "Sandstorm",
+			"energy": 2,
+			"power": 0,
+			"desc": "On Reveal: Add 2 Rocks to your hand. Give them +1 Power for each of your front-Row characters."
+		},
+		{
+			"id": "Sasquatch",
+			"name": "Sasquatch",
+			"energy": 6,
+			"power": 11,
+			"desc": "Costs 1 less for each card you played last turn."
+		},
+		{
+			"id": "Sauron",
+			"name": "Sauron",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Remove the abilities from all Ongoing cards in your deck."
+		},
+		{
+			"id": "ScarletSpider",
+			"name": "Scarlet Spider",
+			"energy": 4,
+			"power": 5,
+			"desc": "Activate: Add an exact clone of this to another location."
+		},
+		{
+			"id": "ScarletWitch",
+			"name": "Scarlet Witch",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Replace this location with a new one."
+		},
+		{
+			"id": "Scorn",
+			"name": "Scorn",
+			"energy": 1,
+			"power": 2,
+			"desc": "When Discarded: Put this back and give +2 Power to itself and one of your cards in play."
+		},
+		{
+			"id": "Scorpion",
+			"name": "Scorpion",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Afflict cards in your opponent's hand with -1 Power."
+		},
+		{
+			"id": "ScorpionBrandNewDay",
+			"name": "Scorpion Brand New Day",
+			"energy": 6,
+			"power": 6,
+			"desc": "Ongoing: Double the Power reductions on all enemy cards."
+		},
+		{
+			"id": "Scream",
+			"name": "Scream",
+			"energy": 2,
+			"power": 1,
+			"desc": "When an enemy card moves, steal 2 Power from it. (once per turn)"
+		},
+		{
+			"id": "SebastianShaw",
+			"name": "Sebastian Shaw",
+			"energy": 3,
+			"power": 5,
+			"desc": "When this is Empowered, gain an additional +2 Power. (if in hand, in deck, or in play)"
+		},
+		{
+			"id": "Selene",
+			"name": "Selene",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Afflict the lowest-Power card in each player's hand with -3 Power."
+		},
+		{
+			"id": "SeleneHorseman",
+			"name": "Selene Horseman of Famine",
+			"energy": 4,
+			"power": 4,
+			"desc": "Objective: Have 3 cards with no abilities in play Steal 5 Power from an enemy card here. (0/3)"
+		},
+		{
+			"id": "Sentinel",
+			"name": "Sentinel",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Add another Sentinel to your hand."
+		},
+		{
+			"id": "Sentry",
+			"name": "Sentry",
+			"energy": 4,
+			"power": 9,
+			"desc": "You can't play this at the right location. On Reveal: Add a -9 Power Void to the right location."
+		},
+		{
+			"id": "Sera",
+			"name": "Sera",
+			"energy": 5,
+			"power": 5,
+			"desc": "Ongoing: Cards in your hand cost 1 less. (minimum 1)"
+		},
+		{
+			"id": "Sersi",
+			"name": "Sersi",
+			"energy": 5,
+			"power": 7,
+			"desc": "On Reveal: Transform your other characters here into random ones that cost 1 more. (if possible)"
+		},
+		{
+			"id": "ShadowKing",
+			"name": "Shadow King",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Reset all cards here to their original Power."
+		},
+		{
+			"id": "ShadowlandsDaredevil",
+			"name": "Shadowlands Daredevil",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Shuffle in 3 Demons. When you draw a card with 6 or more Power, +2 Power."
+		},
+		{
+			"id": "ShangChi",
+			"name": "Shang-Chi",
+			"energy": 4,
+			"power": 3,
+			"desc": "On Reveal: Destroy an enemy card here that has 10 or more Power."
+		},
+		{
+			"id": "ShangChiMasterOfTheRings",
+			"name": "Shang-Chi, Master of the Rings",
+			"energy": 3,
+			"power": 5,
+			"desc": "Game Start: The Ten Rings starts in your hand. On Reveal: Unlock their potential."
+		},
+		{
+			"id": "Shanna",
+			"name": "Shanna",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: Add a random 1-Cost character to each location."
+		},
+		{
+			"id": "SheHulk",
+			"name": "She-Hulk",
+			"energy": 6,
+			"power": 10,
+			"desc": "Costs 1 less for each unspent Energy last turn."
+		},
+		{
+			"id": "Shocker",
+			"name": "Shocker",
+			"energy": 2,
+			"power": 4,
+			"desc": "\"I'm gonna blast you!\""
+		},
+		{
+			"id": "ShouLao",
+			"name": "Shou-Lao the Undying",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: Give the last character you played +2 Power for each turn you played 2 or more cards. (+0)"
+		},
+		{
+			"id": "Shuri",
+			"name": "Shuri",
+			"energy": 4,
+			"power": 3,
+			"desc": "On Reveal: If you play your next card at this location, double its Power."
+		},
+		{
+			"id": "Silk",
+			"name": "Silk",
+			"energy": 2,
+			"power": 5,
+			"desc": "After ANY card is played here, move this to another location."
+		},
+		{
+			"id": "SilverSable",
+			"name": "Silver Sable",
+			"energy": 1,
+			"power": 0,
+			"desc": "On Reveal: Steal 2 Power from the top character of your opponent's deck."
+		},
+		{
+			"id": "SilverSamurai",
+			"name": "Silver Samurai",
+			"energy": 4,
+			"power": 6,
+			"desc": "On Reveal: Each player discards the lowest-Power character from their hand."
+		},
+		{
+			"id": "SilverSurfer",
+			"name": "Silver Surfer",
+			"energy": 3,
+			"power": 2,
+			"desc": "On Reveal: Give your other 3-Cost cards +2 Power."
+		},
+		{
+			"id": "SilverSurferFirstSteps",
+			"name": "Silver Surfer First Steps",
+			"energy": 3,
+			"power": 5,
+			"desc": "End of Turn: If you're winning this location with an On Reveal card, copy its text."
+		},
+		{
+			"id": "SinisterSix",
+			"name": "Sinister Six",
+			"energy": 6,
+			"power": 12,
+			"desc": "Game Start: The first 6 characters you draw are EVIL! After you play them all, merge them into this and add this to the last one's location. (0/6)"
+		},
+		{
+			"id": "Skaar",
+			"name": "Skaar",
+			"energy": 7,
+			"power": 12,
+			"desc": "Costs 2 less for each of your cards that has 10 or more Power."
+		},
+		{
+			"id": "Snowguard",
+			"name": "Snowguard",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Add the Hawk and Bear auroras to your hand."
+		},
+		{
+			"id": "Sparky",
+			"name": "Sparky",
+			"energy": 2,
+			"power": 2,
+			"desc": "Activate: Give your card that last moved +2 Power and move it back to its previous location."
+		},
+		{
+			"id": "Spectrum",
+			"name": "Spectrum",
+			"energy": 6,
+			"power": 7,
+			"desc": "On Reveal: Give your Ongoing cards +2 Power."
+		},
+		{
+			"id": "Speed",
+			"name": "Speed",
+			"energy": 3,
+			"power": 3,
+			"desc": "Ongoing: +1 Power for each turn in which you spent all your Energy."
+		},
+		{
+			"id": "SpiderSense",
+			"name": "Spider Sense",
+			"energy": 5,
+			"power": 0,
+			"desc": "On Reveal: Give your characters here +3 Power. Costs 1 less for each Moveable card you've played."
+		},
+		{
+			"id": "SpiderHam",
+			"name": "Spider-Ham",
+			"energy": 1,
+			"power": 1,
+			"desc": "Activate: Replace the text of a random character in your opponent's hand with \"oink!\""
+		},
+		{
+			"id": "SpiderMan",
+			"name": "Spider-Man",
+			"energy": 2,
+			"power": 4,
+			"desc": "On Reveal: Move to another location and pull an enemy card from here to there."
+		},
+		{
+			"id": "SpiderMan2099",
+			"name": "Spider-Man 2099",
+			"energy": 4,
+			"power": 5,
+			"desc": "Moveable once. When this moves to a location, afflict an enemy card there with -3 Power."
+		},
+		{
+			"id": "SpiderManBrandNewDay",
+			"name": "Spider-Man Brand New Day",
+			"energy": 1,
+			"power": 2,
+			"desc": "Moveable twice. After this moves to a location, give one of your other cards there +1 Power. (even unrevealed ones)"
+		},
+		{
+			"id": "SpiderManNoir",
+			"name": "Spider-Man Noir",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: Set the top character of your deck's Power to 8. If your other cards in play cost exactly 8 total, add it here. (0/8)"
+		},
+		{
+			"id": "SpiderPunk",
+			"name": "Spider-Punk",
+			"energy": 3,
+			"power": 3,
+			"desc": "Moveable once. When this moves to a location, steal 2 Power from the highest-Power enemy there."
+		},
+		{
+			"id": "SpiderWoman",
+			"name": "Spider-Woman",
+			"energy": 5,
+			"power": 8,
+			"desc": "On Reveal: Afflict all enemy cards here with -1 Power."
+		},
+		{
+			"id": "SquirrelGirl",
+			"name": "Squirrel Girl",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Add a 1-Power Squirrel to each other location."
+		},
+		{
+			"id": "Starlord",
+			"name": "Star-Lord",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: If your opponent played a card here this turn, +4 Power."
+		},
+		{
+			"id": "StarlordMasterOfTheSun",
+			"name": "Star-Lord, Master of the Sun",
+			"energy": 5,
+			"power": 7,
+			"desc": "On Reveal: Next turn, you get +1 Energy for each turn you've ended with unspent Energy. (0 turns.)"
+		},
+		{
+			"id": "Starbrand",
+			"name": "Starbrand",
+			"energy": 3,
+			"power": 10,
+			"desc": "Ongoing: Your opponent has +3 Power at each other location."
+		},
+		{
+			"id": "Stardust",
+			"name": "Stardust",
+			"energy": 4,
+			"power": 6,
+			"desc": "Ongoing: Cards can't be added to locations except by playing or moving them."
+		},
+		{
+			"id": "Starhawk",
+			"name": "Starhawk",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: +1 Power to your cards at the left location if it's an odd turn, otherwise give to the right location."
+		},
+		{
+			"id": "Stature",
+			"name": "Stature",
+			"energy": 5,
+			"power": 7,
+			"desc": "Costs 1 if your opponent discarded a card this game."
+		},
+		{
+			"id": "Stegron",
+			"name": "Stegron",
+			"energy": 4,
+			"power": 7,
+			"desc": "On Reveal: Move an enemy card here one location to the right."
+		},
+		{
+			"id": "Stick",
+			"name": "Stick",
+			"energy": 4,
+			"power": 3,
+			"desc": "On Reveal: Give the next card you play Power equal to this card's Power."
+		},
+		{
+			"id": "Storm",
+			"name": "Storm",
+			"energy": 3,
+			"power": 1,
+			"desc": "On Reveal: Flood this location. Next turn is the last turn cards can be played here."
+		},
+		{
+			"id": "StormHorseman",
+			"name": "Storm Horseman of Famine",
+			"energy": 3,
+			"power": 1,
+			"desc": "Objective: End 2 turns in a row with unspent Energy Give your other cards here and in your hand +2 Power. (0/2)"
+		},
+		{
+			"id": "StrangeSupreme",
+			"name": "Strange Supreme",
+			"energy": 2,
+			"power": 2,
+			"desc": "Gains +2 Power from merging. End of Turn: Merge one of your created cards into this."
+		},
+		{
+			"id": "StrongGuy",
+			"name": "Strong Guy",
+			"energy": 3,
+			"power": 4,
+			"desc": "Ongoing: +6 Power if your hand has 1 or fewer cards."
+		},
+		{
+			"id": "Stryfe",
+			"name": "Stryfe",
+			"energy": 4,
+			"power": 6,
+			"desc": "Objective: Play 3 On Reveal cards Use the highest-Cost On Reveal in your hand. (0/3)"
+		},
+		{
+			"id": "SubMariner",
+			"name": "Sub-Mariner",
+			"energy": 1,
+			"power": 2,
+			"desc": "When this is Empowered, add a random 1-Cost character to your hand with that same increase. (if in hand or in play)"
+		},
+		{
+			"id": "Sunspot",
+			"name": "Sunspot",
+			"energy": 1,
+			"power": 0,
+			"desc": "End of Turn: Gain +1 Power for each unspent Energy."
+		},
+		{
+			"id": "SuperAdaptoid",
+			"name": "Super-Adaptoid",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Steal the text from an enemy Activate card here."
+		},
+		{
+			"id": "SuperSkrull",
+			"name": "Super-Skrull",
+			"energy": 4,
+			"power": 2,
+			"desc": "Ongoing: Has the Ongoing effects of all enemy cards."
+		},
+		{
+			"id": "Supergiant",
+			"name": "Supergiant",
+			"energy": 4,
+			"power": 5,
+			"desc": "On Reveal: All cards played next turn don't reveal until the game ends."
+		},
+		{
+			"id": "SuperiorIronMan",
+			"name": "Superior Iron Man",
+			"energy": 5,
+			"power": 8,
+			"desc": "Double Cost reductions to this. Ongoing: Double Power increases to this."
+		},
+		{
+			"id": "SuperiorSpiderMan",
+			"name": "Superior Spider-Man",
+			"energy": 3,
+			"power": 4,
+			"desc": "Start of Turn: +1 Energy if you have any cards with increased Power in play."
+		},
+		{
+			"id": "Surge",
+			"name": "Surge",
+			"energy": 2,
+			"power": 1,
+			"desc": "On Reveal: Give the top card of your deck -1 Cost and +1 Power. After you play it, repeat this ability."
+		},
+		{
+			"id": "Surtur",
+			"name": "Surtur",
+			"energy": 3,
+			"power": 5,
+			"desc": "After you play a card with 10 or more Power, this gains +2 Power."
+		},
+		{
+			"id": "Swarm",
+			"name": "Swarm",
+			"energy": 2,
+			"power": 3,
+			"desc": "When Discarded: Add two copies of this that cost 0 to your hand."
+		},
+		{
+			"id": "SwordMaster",
+			"name": "Sword Master",
+			"energy": 3,
+			"power": 7,
+			"desc": "On Reveal: Discard an odd-costed card from your hand."
+		},
+		{
+			"id": "SymbioteSpiderMan",
+			"name": "Symbiote Spider-Man",
+			"energy": 4,
+			"power": 7,
+			"desc": "Activate: Merge your lowest-Cost card here into this. Copy its text like it just revealed."
+		},
+		{
+			"id": "Tarantula",
+			"name": "Tarantula",
+			"energy": 2,
+			"power": 2,
+			"desc": "End of Turn: If you have the highest Power among cards in play, give this and 2 characters in your hand +1 Power."
+		},
+		{
+			"id": "Taskmaster",
+			"name": "Taskmaster",
+			"energy": 6,
+			"power": 0,
+			"desc": "On Reveal: Set this card's Power equal to that of the last card you played. (if able)"
+		},
+		{
+			"id": "TechnoOrganicVirus",
+			"name": "Techno-Organic Virus",
+			"energy": 2,
+			"power": 0,
+			"desc": "On Reveal: Infect your other cards here (replace their text). Copy this to your hand."
+		},
+		{
+			"id": "Terrax",
+			"name": "Terrax the Tamer",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: For each location, shuffle a Rock into the losing player's deck."
+		},
+		{
+			"id": "ThaddeusRoss",
+			"name": "Thaddeus Ross",
+			"energy": 2,
+			"power": 2,
+			"desc": "End of Turn: If your opponent has unspent Energy, draw a card with 10 or more Power."
+		},
+		{
+			"id": "Thanos",
+			"name": "Thanos",
+			"energy": 6,
+			"power": 12,
+			"desc": "Game Start: Shuffle the six Infinity Stones into your deck."
+		},
+		{
+			"id": "ThanosFracturedFrontier",
+			"name": "Thanos Fractured Frontier",
+			"energy": 5,
+			"power": 8,
+			"desc": "Game Start: Load an Infinity Shot. Your cards have \"Quickdraw: Thanos loads again.\" On Reveal: Fire all loaded Shots."
+		},
+		{
+			"id": "TheAncientOne",
+			"name": "The Ancient One",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Add Tao Mandala to your hand."
+		},
+		{
+			"id": "TheCollector",
+			"name": "The Collector",
+			"energy": 2,
+			"power": 3,
+			"desc": "When a card enters your hand from anywhere (except your deck), +1 Power."
+		},
+		{
+			"id": "FallenOne",
+			"name": "The Fallen One",
+			"energy": 5,
+			"power": 5,
+			"desc": "On Reveal: Set your Max Energy equal to this card's Power."
+		},
+		{
+			"id": "GhostTheFirstRider",
+			"name": "The First Ghost Rider",
+			"energy": 2,
+			"power": 7,
+			"desc": "On Reveal: Discard the lowest-Power character from your hand. Remove that card's Power from this."
+		},
+		{
+			"id": "Hood",
+			"name": "The Hood",
+			"energy": 1,
+			"power": -3,
+			"desc": "On Reveal: Add a Demon to your hand."
+		},
+		{
+			"id": "TheHunger",
+			"name": "The Hunger",
+			"energy": 1,
+			"power": 0,
+			"desc": "On Reveal: Horde +3."
+		},
+		{
+			"id": "Infinaut",
+			"name": "The Infinaut",
+			"energy": 6,
+			"power": 20,
+			"desc": "If you played a card last turn, you can't play this."
+		},
+		{
+			"id": "LivingTribunal",
+			"name": "The Living Tribunal",
+			"energy": 6,
+			"power": 9,
+			"desc": "Ongoing: Split your total Power evenly among all locations."
+		},
+		{
+			"id": "TheThing",
+			"name": "The Thing",
+			"energy": 4,
+			"power": 7,
+			"desc": "\"It's clobberin' time!\""
+		},
+		{
+			"id": "TheThingFirstSteps",
+			"name": "The Thing First Steps",
+			"energy": 5,
+			"power": 6,
+			"desc": "End of Turn: +2 Power. Once per game, if your side here is full, destroy an enemy card here with less Power."
+		},
+		{
+			"id": "Thena",
+			"name": "Thena",
+			"energy": 2,
+			"power": 0,
+			"desc": "End of Turn: +3 Power if you played (exactly) 2 cards."
+		},
+		{
+			"id": "Thor",
+			"name": "Thor",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Shuffle Mjolnir into your deck."
+		},
+		{
+			"id": "Titania",
+			"name": "Titania",
+			"energy": 1,
+			"power": 5,
+			"desc": "After ANY card is played here, this card switches sides."
+		},
+		{
+			"id": "Tombstone",
+			"name": "Tombstone",
+			"energy": 2,
+			"power": 4,
+			"desc": "On Reveal: Destroy your lowest-Power card at each other location."
+		},
+		{
+			"id": "Topaz",
+			"name": "Topaz",
+			"energy": 2,
+			"power": 4,
+			"desc": "After you play a card here, move it to the middle location."
+		},
+		{
+			"id": "ToxieDoxie",
+			"name": "Toxie Doxie",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Give 2 characters in your hand +2 Power. You can't play them next turn."
+		},
+		{
+			"id": "Toxin",
+			"name": "Toxin",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Return your other cards here to your hand. +2 Power for each returned."
+		},
+		{
+			"id": "Triton",
+			"name": "Triton",
+			"energy": 3,
+			"power": 6,
+			"desc": "On Reveal: Give the last character EACH player played last turn +3 Power."
+		},
+		{
+			"id": "TyphoidMary",
+			"name": "Typhoid Mary",
+			"energy": 4,
+			"power": 10,
+			"desc": "Ongoing: Your other cards here have -2 Power."
+		},
+		{
+			"id": "USAgent",
+			"name": "U.S. Agent",
+			"energy": 2,
+			"power": 3,
+			"desc": "Ongoing: 4-Cost or more cards here have -3 Power."
+		},
+		{
+			"id": "Uatu",
+			"name": "Uatu the Watcher",
+			"energy": 1,
+			"power": 2,
+			"desc": "Game Start: You can see the unrevealed locations."
+		},
+		{
+			"id": "Ultron",
+			"name": "Ultron",
+			"energy": 6,
+			"power": 8,
+			"desc": "On Reveal: Deploy four 2-Power Drones to each other location."
+		},
+		{
+			"id": "UncleBen",
+			"name": "Uncle Ben",
+			"energy": 1,
+			"power": 2,
+			"desc": "When Destroyed: Replace this with Spider-Man."
+		},
+		{
+			"id": "Valentina",
+			"name": "Valentina",
+			"energy": 2,
+			"power": 3,
+			"desc": "On Reveal: Add a random 6-Cost card to your hand. Give it -2 Cost and -2 Power."
+		},
+		{
+			"id": "Valkyrie",
+			"name": "Valkyrie",
+			"energy": 5,
+			"power": 3,
+			"desc": "On Reveal: Set ALL cards here to 3 Power."
+		},
+		{
+			"id": "Venom",
+			"name": "Venom",
+			"energy": 3,
+			"power": 3,
+			"desc": "On Reveal: Destroy your other cards here. Add their Power to this card."
+		},
+		{
+			"id": "Venus",
+			"name": "Venus",
+			"energy": 3,
+			"power": 2,
+			"desc": "When your cards in play are Empowered, give those cards an additional +1 Power."
+		},
+		{
+			"id": "VictoriaHand",
+			"name": "Victoria Hand",
+			"energy": 2,
+			"power": 2,
+			"desc": "Ongoing: Your cards that were created in your hand have +2 Power."
+		},
+		{
+			"id": "Viper",
+			"name": "Viper",
+			"energy": 3,
+			"power": 4,
+			"desc": "On Reveal: One of your other cards here with the lowest Power switches sides."
+		},
+		{
+			"id": "Vision",
+			"name": "Vision",
+			"energy": 5,
+			"power": 9,
+			"desc": "Moveable"
+		},
+		{
+			"id": "Viv",
+			"name": "Viv Vision",
+			"energy": 3,
+			"power": 4,
+			"desc": "Start of Turn: Give all cards in your hand +1 Power if you're winning here. Otherwise, move this to another location."
+		},
+		{
+			"id": "Vulture",
+			"name": "Vulture",
+			"energy": 1,
+			"power": 3,
+			"desc": "When this card moves, +4 Power."
+		},
+		{
+			"id": "WadeWilson",
+			"name": "Wade Wilson",
+			"energy": 2,
+			"power": 2,
+			"desc": "When Destroyed: Replace this with a 1-Cost card from your hand or deck with +2 Power."
+		},
+		{
+			"id": "WarMachine",
+			"name": "War Machine",
+			"energy": 5,
+			"power": 9,
+			"desc": "Ongoing: Nothing can stop you from playing cards anywhere."
+		},
+		{
+			"id": "Warlock",
+			"name": "Warlock",
+			"energy": 3,
+			"power": 4,
+			"desc": "Activate: For each unspent Energy, give a card in your hand -1 Cost."
+		},
+		{
+			"id": "Warpath",
+			"name": "Warpath",
+			"energy": 4,
+			"power": 5,
+			"desc": "Ongoing: If any of your locations are empty, +5 Power."
+		},
+		{
+			"id": "Wasp",
+			"name": "Wasp",
+			"energy": 0,
+			"power": 1,
+			"desc": "\"My secret power is that I get things done.\""
+		},
+		{
+			"id": "Wave",
+			"name": "Wave",
+			"energy": 3,
+			"power": 6,
+			"desc": "On Reveal: All cards cost a maximum of 4 until the end of next turn."
+		},
+		{
+			"id": "WeaponH",
+			"name": "Weapon H",
+			"energy": 7,
+			"power": 14,
+			"desc": "When Discarded: Put this back with -2 Cost."
+		},
+		{
+			"id": "WeaponXWolverine",
+			"name": "Weapon X Wolverine",
+			"energy": 2,
+			"power": 3,
+			"desc": "After one of your other cards is destroyed, +1 Power. After every 3rd time, improve this effect by 1. (0/3)"
+		},
+		{
+			"id": "WebSling",
+			"name": "Web Sling",
+			"energy": 1,
+			"power": 0,
+			"desc": "On Reveal: Next turn, one of your cards here is Moveable and gets +1 Power when it moves. (your choice)"
+		},
+		{
+			"id": "WerewolfByNight",
+			"name": "Werewolf By Night",
+			"energy": 3,
+			"power": 3,
+			"desc": "After you play a card, move there to gain +2 Power if it has an On Reveal."
+		},
+		{
+			"id": "WhiteQueen",
+			"name": "White Queen",
+			"energy": 3,
+			"power": 5,
+			"desc": "On Reveal: Copy the card that costs the most from your opponent's hand into your hand."
+		},
+		{
+			"id": "WhiteTiger",
+			"name": "White Tiger",
+			"energy": 5,
+			"power": 1,
+			"desc": "On Reveal: Add a 10-Power Tiger to another location."
+		},
+		{
+			"id": "WhiteWidow",
+			"name": "White Widow",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Add a Widow's Kiss to your opponent's side of this location."
+		},
+		{
+			"id": "Wiccan",
+			"name": "Wiccan",
+			"energy": 4,
+			"power": 6,
+			"desc": "On Reveal: If you've spent all your Energy on previous turns, +2 Max Energy."
+		},
+		{
+			"id": "WildChild",
+			"name": "Wild Child",
+			"energy": 2,
+			"power": 1,
+			"desc": "Ongoing: +4 Power if you've discarded a card. +4 Power if one of your cards has been destroyed."
+		},
+		{
+			"id": "WilsonFisk",
+			"name": "Wilson Fisk",
+			"energy": 5,
+			"power": 8,
+			"desc": "Costs 3 if you have the highest Power among cards in play."
+		},
+		{
+			"id": "Wolfsbane",
+			"name": "Wolfsbane",
+			"energy": 3,
+			"power": 2,
+			"desc": "On Reveal: +2 Power for each other card you have here."
+		},
+		{
+			"id": "Wolverine",
+			"name": "Wolverine",
+			"energy": 2,
+			"power": 3,
+			"desc": "When Discarded or Destroyed: Regenerate this with +2 Power at a random location."
+		},
+		{
+			"id": "WolverineHorseman",
+			"name": "Wolverine Horseman of War",
+			"energy": 4,
+			"power": 3,
+			"desc": "Objective: This has 5 or more Power Give one of your cards at each location +4 Power. (3/5)"
+		},
+		{
+			"id": "Wong",
+			"name": "Wong",
+			"energy": 4,
+			"power": 2,
+			"desc": "Ongoing: Your On Reveal abilities here repeat."
+		},
+		{
+			"id": "X23",
+			"name": "X-23",
+			"energy": 1,
+			"power": 1,
+			"desc": "When Discarded or Destroyed: Regenerate this at a random location and you get +1 Energy next turn."
+		},
+		{
+			"id": "Xorn",
+			"name": "Xorn",
+			"energy": 2,
+			"power": 3,
+			"desc": "After ANY 3 or 4-Cost card is played here, move it to another location."
+		},
+		{
+			"id": "Yellowjacket",
+			"name": "Yellowjacket",
+			"energy": 0,
+			"power": 2,
+			"desc": "On Reveal: Afflict your other cards here with -1 Power."
+		},
+		{
+			"id": "Yondu",
+			"name": "Yondu",
+			"energy": 1,
+			"power": 2,
+			"desc": "On Reveal: Banish the card that costs the least in your opponent's deck."
+		},
+		{
+			"id": "Zabu",
+			"name": "Zabu",
+			"energy": 1,
+			"power": 1,
+			"desc": "On Reveal: Give each 4-Cost card in your deck -1 Cost."
+		},
+		{
+			"id": "Zero",
+			"name": "Zero",
+			"energy": 1,
+			"power": 3,
+			"desc": "On Reveal: Remove the abilities on the next card you play."
+		},
+		{
+			"id": "ZombieCaptainMarvel",
+			"name": "Zombie Captain Marvel",
+			"energy": 4,
+			"power": 5,
+			"desc": "Activate: Destroy your other cards here to get +3 Power for each. Move to a location you're losing."
+		},
+		{
+			"id": "ZombieGalacti",
+			"name": "Zombie Galacti",
+			"energy": 7,
+			"power": 5,
+			"desc": "Game Start: Choose 6 other characters in your deck. On Reveal: Transform those cards into copies of this."
+		},
+		{
+			"id": "ZombieGiantMan",
+			"name": "Zombie Giant-Man",
+			"energy": 5,
+			"power": 4,
+			"desc": "On Reveal: Horde +2, then this gains Power equal to your Zombie Horde."
+		},
+		{
+			"id": "ZombieMisterFantastic",
+			"name": "Zombie Mister Fantastic",
+			"energy": 2,
+			"power": 2,
+			"desc": "On Reveal: Horde +2. Activate: Give 4 of your created cards +1 Power."
+		},
+		{
+			"id": "ZombiePowerMan",
+			"name": "Zombie Power Man",
+			"energy": 2,
+			"power": 4,
+			"desc": "End of Turn: If you're winning here, discard the leftmost card from your hand."
+		},
+		{
+			"id": "ZombieScarletWitch",
+			"name": "Zombie Scarlet Witch",
+			"energy": 3,
+			"power": 4,
+			"desc": "After you play a card here, Horde +2."
+		},
+		{
+			"id": "ZombieSentry",
+			"name": "Zombie Sentry",
+			"energy": 2,
+			"power": 1,
+			"desc": "On Reveal: Horde +1 for each of your cards at the right location."
+		}
+	]
+}

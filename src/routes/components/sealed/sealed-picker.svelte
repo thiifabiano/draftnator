@@ -1,31 +1,23 @@
 <script>
 	import { onMount } from 'svelte';
-	import { get } from 'svelte/store';
-	import { API_URL } from '$lib/store.js';
+	import { loadCards, cardImage } from '$lib/cards.js';
 	import { sortCards, randomNum } from '$lib/global.js';
 	import { SEALED_CARDS } from '$lib/store.js';
 	import { DECK } from '$lib/store.js';
 
-	const DATA_URL = get(API_URL);
 	const displayedCards = [null, null, null, null, null];
 	let allCards = [];
 	let revealed = 0;
 	let packs = 5;
 	let cardsOpened = [];
+	const skipped = new Set(); // cartas que o jogador disse não ter
 	let hideCards = false;
-	let packCards = [null, null, null, null, null];
 	let openComplete = false;
 
 	onMount(async () => {
-		const response = await fetch(DATA_URL + '/data/snap.json', {
-			method: 'GET',
-			mode: 'cors'
-		});
-		const { data } = await response.json();
-		allCards = data.cards.card;
-
+		allCards = await loadCards();
 		$DECK = [];
-		$SEALED_CARDS = []; // reset any old data on reloat
+		$SEALED_CARDS = []; // reset any old data on reload
 	});
 
 	function handleClick(index, reroll) {
@@ -35,33 +27,22 @@
 
 		if (reroll) {
 			// remove the card already in our hands
+			const old = displayedCards[index];
+			skipped.add(old.id);
 			cardsOpened.splice(
-				cardsOpened.findIndex((x) => parseInt(x.id) === parseInt(packCards[index])),
+				cardsOpened.findIndex((x) => x.id === old.id),
 				1
 			);
 			revealed--;
 		}
 
-		let cardPicked = 0;
+		let card;
 		do {
-			let pickCard = randomNum(0, allCards.length);
-			// TODO: do we want duplicates and do we want rarity?
-			if (allCards[pickCard].released == true) {
-				if (cardsOpened.findIndex((x) => parseInt(x.id) === parseInt(allCards[pickCard].id)) < 0) {
-					cardsOpened.push(allCards[pickCard]);
-					cardPicked = pickCard;
-				} else cardPicked = pickCard;
-			}
-		} while (cardPicked == 0);
+			card = allCards[randomNum(0, allCards.length - 1)];
+		} while (skipped.has(card.id) || cardsOpened.some((x) => x.id === card.id));
 
-		//displayedCards[index] = `https://snapdata-cdn.stonedonkey.com/images/cards/${allCards[cardPicked].id}.webp`;
-
-		displayedCards[index] = allCards[cardPicked];
-
-		packCards[index] = allCards[cardPicked].id;
-
-		//console.log(cardsOpened);
-
+		cardsOpened.push(card);
+		displayedCards[index] = card;
 		revealed += 1;
 	}
 
@@ -76,25 +57,14 @@
 
 		if (revealed !== 5) return;
 
-		// reset the displayed cards array and the revealed count
-		displayedCards.fill(null);
-		displayedCards.forEach((card, index) => {
-			displayedCards[index] = null;
-		});
-
-		packCards.fill(null);
-		packCards.forEach((card, index) => {
-			packCards[index] = null;
-		});
-
+		for (let i = 0; i < displayedCards.length; i++) displayedCards[i] = null;
 		revealed = 0;
 		packs--;
 	}
 
 	// handles once all the cards are opened;
 	function buildDeck() {
-		$SEALED_CARDS = cardsOpened.slice(0);
-		$SEALED_CARDS = sortCards($SEALED_CARDS);
+		$SEALED_CARDS = sortCards(cardsOpened.slice(0));
 		openComplete = true;
 	}
 </script>
@@ -107,12 +77,12 @@
 					{#if packs > 0}
 						<!-- svelte-ignore a11y-click-events-have-key-events -->
 						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-						<img src="/images/CardPack-LokiForAllTime.png" on:click={() => handleDeal()} on:click={() => handleDeal()} alt="Card Pack " class="card-pack-image" />
+						<img src="/images/CardPack-LokiForAllTime.png" on:click={() => handleDeal()} alt="Card Pack " class="card-pack-image" />
 					{/if}
 				</div>
-				<div id="packs-remaining">{packs} Packs Remaning</div>
+				<div id="packs-remaining">{packs} {packs === 1 ? 'pacote restante' : 'pacotes restantes'}</div>
 				{#if packs == 0 && revealed == 5}
-					<div class="build-deck"><button class="button" on:click={() => buildDeck()}>Build Your Deck</button></div>
+					<div class="build-deck"><button class="button" on:click={() => buildDeck()}>Montar o deck</button></div>
 				{/if}
 			</div>
 			<div class="card-images-container">
@@ -121,10 +91,10 @@
 						<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 						<div class="card-image-container">
 							<!-- svelte-ignore a11y-click-events-have-key-events -->
-							<img src={displayedCards[index] ? `https://snapdata-cdn.stonedonkey.com/images/cards/${displayedCards[index].id}.webp` : '/images/CardBack-LokiForAllTime.png'} class="card-image" alt={`Card ${index}`} on:click={() => handleClick(index, false)} />
+							<img src={card ? cardImage(card) : '/images/CardBack-LokiForAllTime.png'} class="card-image" alt={`Card ${index}`} on:click={() => handleClick(index, false)} />
 							{#if card}
 								<div class="card-description">{displayedCards[index].desc}</div>
-								<div class="reroll"><button class="button-reroll button button-small" on:keydown={() => handleClick(index, true)} on:click={() => handleClick(index, true)}>Don't Have Card</button></div>
+								<div class="reroll"><button class="button-reroll button button-small" on:click={() => handleClick(index, true)}>Não tenho</button></div>
 							{:else}
 								<div class="card-description" />
 								<div class="reroll" />
@@ -233,7 +203,7 @@
 		height: 438px;
 	}
 	#packs-remaining {
-		margin-top:-45px;
-		margin-bottom:+45px;
+		margin-top: -45px;
+		margin-bottom: +45px;
 	}
 </style>

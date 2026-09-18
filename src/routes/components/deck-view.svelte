@@ -1,14 +1,11 @@
 <script>
 	import { afterUpdate, onMount } from 'svelte';
-	import { get } from 'svelte/store';
-	import { API_URL } from '$lib/store.js';
+	import { cardImage } from '$lib/cards.js';
 	import { DECK_EVENT } from '$lib/store.js';
 	import PowerTable from '../components/power-table.svelte';
 	import tippy from 'tippy.js';
 	import 'tippy.js/dist/tippy.css';
 	import 'tippy.js/themes/light-border.css';
-
-	let cdn = get(API_URL);
 
 	export let showPowerTable = true;
 	export let cards = [];
@@ -43,7 +40,7 @@
 			{#if index < cards.length}
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-				<img id="card{index + 1}" on:click={cardClicked(cards[index])} data-tippy-content={cards[index].desc} class="cards cursor" alt="" src="{cdn}/images/cards/{cards[index].id}.webp" />
+				<img id="card{index + 1}" on:click={cardClicked(cards[index])} data-tippy-content={cards[index].desc} class="cards cursor" alt="" src={cardImage(cards[index])} />
 			{:else}
 				<img id="card{index + 1}" class="cards" alt="Card 1" src="/images/deck-blank.png" />
 			{/if}

@@ -1,16 +1,14 @@
 <script>
 	import { afterUpdate } from 'svelte';
-	import { get } from 'svelte/store';
 	import { SEALED_CARDS } from '$lib/store.js';
 	import { DECK } from '$lib/store.js';
-	import { API_URL } from '$lib/store.js';
+	import { cardImage } from '$lib/cards.js';
 	import { DECK_EVENT } from '$lib/store.js';
 	import { sortCards } from '$lib/global.js';
 	import DraftComplete from '../../components/draft-complete.svelte';
 	import tippy from 'tippy.js';
 	import 'tippy.js/dist/tippy.css';
 	import 'tippy.js/themes/light-border.css';
-	let cdn = get(API_URL);
 
 	let cards;
 	let draftCompleted = false;
@@ -67,7 +65,6 @@
 	}
 
 	function finishDraft() {
-		console.log('done');
 		draftCompleted = true;
 	}
 </script>
@@ -75,7 +72,7 @@
 {#if !draftCompleted}
 	{#if $DECK.length > 11}
 		<div id="complete-draft">
-			<button class="button" on:click={() => finishDraft()}>Complete Your Draft</button>
+			<button class="button" on:click={() => finishDraft()}>Finalizar draft</button>
 		</div>
 	{/if}
 
@@ -83,7 +80,7 @@
 		{#each cards as card}
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-			<div><img on:click={cardPicked(card)} data-tippy-content={card.desc} class="card-pick pointer" src="{cdn}/images/cards/{card.id}.webp" alt={card.name} /></div>
+			<div><img on:click={cardPicked(card)} data-tippy-content={card.desc} class="card-pick pointer" src={cardImage(card)} alt={card.name} /></div>
 			&nbsp;
 		{/each}
 	</div>

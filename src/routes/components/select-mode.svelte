@@ -1,21 +1,18 @@
 <div class="container">
 	<div class="mode">
 		<a href="/arena"><span id="btn-arena" class="material-symbols-outlined icon mode-arena">public</span></a><br /><br />
-		<a class="btn btn-primary mode-arena" id="btn-arena-2">Arena Mode</a>
-		<div class="start-text">Choose one of three cards for twelve rounds to build your deck!</div>
+		<a href="/arena" class="btn btn-primary mode-arena" id="btn-arena-2">Modo Arena</a>
+		<div class="start-text">Escolha uma entre três cartas, doze vezes, pra montar seu deck.</div>
 	</div>
 
 	<div class="mode">
 		<a href="/sealed"><span id="btn-sealed" class="material-symbols-outlined icon mode-sealed">batch_prediction</span><br /><br /></a>
-		<a class="btn btn-primary mode-sealed" id="btn-sealed-2">Sealed Mode</a>
-		<div class="start-text">Open five packs of random cards and build the best deck you can!</div>
+		<a href="/sealed" class="btn btn-primary mode-sealed" id="btn-sealed-2">Modo Sealed</a>
+		<div class="start-text">Abra cinco pacotes de cartas aleatórias e monte o melhor deck que der.</div>
 	</div>
-
-
 </div>
 
 <style>
-
 	.container {
 		margin-top: 50px;
 		display: inline-flex;

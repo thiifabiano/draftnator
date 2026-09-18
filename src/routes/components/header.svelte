@@ -1,19 +1,32 @@
 <div id="heading">
-	<a data-sveltekit-reload href="/"><img id="header-image" alt="Marvel Snap Draftanator" src="/images/site-header.png" /></a>
+	<a data-sveltekit-reload href="/">DRAFTNATOR</a>
+	<div id="subtitle">drafts de Marvel Snap</div>
 </div>
 
 <style>
 	#heading {
-		font-size: 30px;
 		text-align: center;
-		margin-top: 20px;
-		color: white;
-		width:100%;
+		margin-top: 30px;
+		width: 100%;
 	}
-	#header-image {
-		max-width: 100%;
-		max-height: 120px;
-		margin: auto;
-		text-align: center;
+	#heading a {
+		font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+		font-size: 48px;
+		color: white;
+		text-decoration: none;
+		letter-spacing: 6px;
+		text-shadow: 0 0 18px #3b5bdb, 0 0 4px #000;
+	}
+	#subtitle {
+		font-size: 12px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		opacity: 0.7;
+	}
+	@media (max-width: 500px) {
+		#heading a {
+			font-size: 32px;
+			letter-spacing: 3px;
+		}
 	}
 </style>

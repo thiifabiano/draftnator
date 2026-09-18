@@ -1,17 +1,27 @@
-# Marvel Snap Draftanator
+# Draftnator
 
-This Draftanator was created to allow players of Second Dinner's, [Marvel Snap](https://www.marvelsnap.com) to create decks via different methods of drafting.  
+Drafts casuais de Marvel Snap. É um fork do [Marvel Snap Draftanator](https://github.com/hansenwebco/marvel-snap-draftanator), do stonedonkey, que foi abandonado.
 
-You can find the live version at: [https://www.marvelsnapdraft.com/](https://www.marvelsnapdraft.com/)
+- **Arena:** escolha uma entre três cartas, 12 vezes.
+- **Sealed:** abra 5 pacotes de 5 cartas e monte um deck de 12 com o que saiu.
 
-## Developers
+No fim, o site gera um código de deck pra importar no jogo. Cada draft é único, sem login.
 
-The project is written using [Svelte 4.0.](https://svelte.dev/)
+## Rodar local
 
-```git clone repo``` - clone the repo
-```npm install``` - install NPM modules
-```npm run dev``` - should start the developer server with hot loading enabled
+```bash
+npm install
+npm run dev
+```
 
-## Card Data
+## Atualizar as cartas
 
-Card data is hosted in another project which currently is not provided publicly, however you should have no issues working locally for this porject.
+```bash
+npm run cards
+```
+
+Baixa a lista do [Marvel Snap Zone](https://marvelsnapzone.com) e salva em `static/data/cards.json`. Também baixa as imagens que faltam em `static/images/cards/`. Entram só as cartas colecionáveis lançadas: Series 1–5, iniciais, Recruit e Collection Level.
+
+O Marvel Snap Zone às vezes demora pra marcar uma carta nova como lançada. Nesse caso, adicione o `carddefid` dela em `include` no arquivo [`scripts/card-overrides.json`](scripts/card-overrides.json). Pra tirar uma carta do draft, use `exclude`.
+
+Depois é só commitar e dar push. A Vercel publica sozinha.

@@ -2,7 +2,7 @@
 	import { DECK } from '$lib/store.js';
 
 	let cards = [];
-	let energy = new Array(5);  // local variable to bind to the table
+	let energy = new Array(5); // local variable to bind to the table
 
 	DECK.subscribe((c) => {
 		cards = c;
@@ -16,7 +16,7 @@
 				else return elm.energy == x + 1;
 			}).length;
 
-			energy[x] = count > 0 ? count * 10 : 1 ;
+			energy[x] = count > 0 ? count * 10 : 1;
 		}
 	}
 </script>

@@ -13,34 +13,17 @@
 		cardsDrafted = c.length;
 		cards = c;
 	});
-	
 </script>
 
 <svelte:head>
-	<title>Marvel Snap! Draftanator - Arena Draft</title>
-    <meta name="title" content="Marvel Snap! Draftanator - Arena Draft">
-    <meta name="description" content="The original Marvel Snap site for drafting decks.  Mavel Snap Draftanator supports sealed and arena formats and even allows you to draft decks with friends!">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.marvelsnapdraft.com/">
-    <meta property="og:title" content="Marvel Snap! Draftanator - Draft Marvel Snap Decks - Sealed and Arena Formats">
-    <meta property="og:description" content="The original Marvel Snap site for drafting decks.  Mavel Snap Draftanator supports sealed and arena formats and even allows you to draft decks with friends!">
-    <meta property="og:image" content="https://www.marvelsnapdraft.com/images/preview-arena.png">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.marvelsnapdraft.com/">
-    <meta property="twitter:title" content="Marvel Snap! Draftanator - Draft Marvel Snap Decks - Sealed and Arena Formats">
-    <meta property="twitter:description" content="The original Marvel Snap site for drafting decks.  Mavel Snap Draftanator supports sealed and arena formats and even allows you to draft decks with friends!">
-    <meta property="twitter:image" content="https://www.marvelsnapdraft.com/images/preview-arena.png">	
+	<title>Draftnator · Arena</title>
 </svelte:head>
 
 <div>
 	<Header />
 </div>
 <div>
-	<Deck cards={cards} />
+	<Deck {cards} />
 </div>
 
 {#if cardsDrafted < 12}
