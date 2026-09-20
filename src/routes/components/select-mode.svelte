@@ -10,6 +10,12 @@
 		<a href="/sealed" class="btn btn-primary mode-sealed" id="btn-sealed-2">Modo Sealed</a>
 		<div class="start-text">Abra cinco pacotes de cartas aleatórias e monte o melhor deck que der.</div>
 	</div>
+
+	<div class="mode">
+		<a href="/caos"><span id="btn-caos" class="material-symbols-outlined icon mode-caos">casino</span><br /><br /></a>
+		<a href="/caos" class="btn btn-primary mode-caos" id="btn-caos-2">Modo Caos</a>
+		<div class="start-text">Um deck de doze cartas sorteado na hora, sem escolher nada.</div>
+	</div>
 </div>
 
 <style>
