@@ -2,6 +2,7 @@
 import { randomNum } from '$lib/global.js';
 
 export const DECK_SIZE = 12;
+export const ROLLS_POR_PARTIDA = 5; // trocas por gosto; o "Não tenho" é ilimitado
 
 // Critério de curva: sem isso, 1 em cada 5 decks vem com 4+ cartas de custo 5 ou mais.
 const MIN_BARATAS = 4; // cartas de custo <= 2
