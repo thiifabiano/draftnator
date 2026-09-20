@@ -4,15 +4,19 @@ import { randomNum } from '$lib/global.js';
 export const DECK_SIZE = 12;
 export const ROLLS_POR_PARTIDA = 5; // trocas por gosto; o "Não tenho" é ilimitado
 
-// Critério de curva: sem isso, 1 em cada 5 decks vem com 4+ cartas de custo 5 ou mais.
-const MIN_BARATAS = 4; // cartas de custo <= 2
-const MAX_CARAS = 3; // cartas de custo >= 5
+// Critério de curva. Sem nenhum critério, 1 em cada 5 decks vem com 4+ cartas de custo 5 ou mais.
+// Exigir muitas cartas baratas espremia o miolo do deck (dava só 1 carta de custo 5 por deck),
+// então o mínimo do meio é que sustenta a curva. Passa em ~45% dos sorteios: 2,2 sorteios em média.
+const MIN_BARATAS = 3; // cartas de custo <= 2
+const MIN_MIOLO = 6; // cartas de custo 3 a 5
+const MIN_CINCO = 1; // cartas de custo 5
+const MAX_PESADAS = 2; // cartas de custo >= 6
 const MAX_GIGANTES = 1; // cartas de custo >= 7
 
 const count = (deck, test) => deck.filter(test).length;
 
 export function curvaOk(deck) {
-	return count(deck, (c) => c.energy <= 2) >= MIN_BARATAS && count(deck, (c) => c.energy >= 5) <= MAX_CARAS && count(deck, (c) => c.energy >= 7) <= MAX_GIGANTES;
+	return count(deck, (c) => c.energy <= 2) >= MIN_BARATAS && count(deck, (c) => c.energy >= 3 && c.energy <= 5) >= MIN_MIOLO && count(deck, (c) => c.energy === 5) >= MIN_CINCO && count(deck, (c) => c.energy >= 6) <= MAX_PESADAS && count(deck, (c) => c.energy >= 7) <= MAX_GIGANTES;
 }
 
 export function custoMedio(deck) {
