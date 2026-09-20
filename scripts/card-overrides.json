@@ -1,5 +1,5 @@
 {
 	"_comment": "include: cartas já lançadas no jogo que o Marvel Snap Zone ainda marca como não lançadas (use o carddefid). exclude: cartas pra tirar do draft.",
-	"include": ["SuperiorIronMan", "RogueScionOfDivision", "EntropicHavok"],
+	"include": ["SuperiorIronMan", "RogueScionOfDivision", "EntropicHavok", "HellcowFracturedFrontier"],
 	"exclude": []
 }

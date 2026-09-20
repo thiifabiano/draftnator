@@ -1,0 +1,70 @@
+{
+	"_comment": "Arquétipos do modo Arquétipo. 'cards' são as cartas fixas (listas do Untapped.gg e escolhas manuais); as palavras-chave do texto da carta entram por cima, em scripts/themes.mjs. Editar aqui pelo NOME da carta; nomes que não baterem aparecem como aviso no npm run cards.",
+	"temas": {
+		"destruir": {
+			"nome": "Destruir",
+			"desc": "Destrói as suas próprias cartas e lucra com isso.",
+			"cards": ["Deadpool", "X-23", "Nico Minoru", "Carnage", "Hulkbuster", "Wolverine", "Killmonger", "Venom", "Deathlok", "Arnim Zola", "Knull", "Death", "Bucky Barnes", "Nova", "Agony", "Sabretooth", "Shang-Chi", "Headpool"]
+		},
+		"descartar": {
+			"nome": "Descartar",
+			"desc": "Descarta cartas da sua mão e lucra com isso.",
+			"cards": ["Scorn", "Blade", "Morbius", "Colleen Wing", "Gambit", "Corvus Glaive", "Lady Sif", "Dracula", "Proxima Midnight", "M.O.D.O.K.", "Khonshu", "Apocalypse", "Swarm", "Miek", "Marrow", "Wolverine", "The Collector", "Weapon H"]
+		},
+		"mover": {
+			"nome": "Mover",
+			"desc": "Move as suas cartas entre locais e lucra com isso.",
+			"cards": ["Batroc the Leaper", "Nightcrawler", "Jeff the Baby Dolphin!?", "Sam Wilson Captain America", "Angela", "Kraven", "Jeff the Baby Land Shark", "Silk", "Venus", "Cosmo", "Hydra Stomper", "Mary Jane", "Spider-Man Brand New Day", "Thanos Fractured Frontier", "Jane Foster Fractured Frontier", "Hydra Bob", "Juggernaut", "Luke Cage", "Isca the Unbeaten", "Hellion"]
+		},
+		"rampa": {
+			"nome": "Rampa",
+			"desc": "Ganha energia pra jogar cartas caras antes da hora.",
+			"cards": ["Sunspot", "Domino", "Electro", "Wave", "Jubilee", "Blink", "Sandman", "Vision", "War Machine", "Doctor Doom", "Magneto", "Giganto", "The Infinaut", "Hulk", "Lockjaw", "Ebony Maw", "Hydro-Man", "Arnim Zola"]
+		},
+		"toxic": {
+			"nome": "Toxic",
+			"desc": "Enche o campo do oponente de problema e derruba o poder dele.",
+			"cards": ["Silver Sable", "Luke Cage", "Scorpion", "Magik", "Cosmo", "Hazmat", "Rogue", "Cyclops", "High Evolutionary", "Man-Thing", "Ajax", "Abomination", "Hellcow Fractured Frontier", "Scorpion Brand New Day", "Laufey", "Red Guardian", "Diamondback", "Selene", "Ikari", "Polaris Horseman of Pestilence", "Cassandra Nova", "Lady Bullseye", "Mystique", "Anti-Polar Magneto"]
+		},
+		"zombie": {
+			"nome": "Zombie",
+			"desc": "Cartas zumbi e o que cresce junto com elas.",
+			"cards": ["The Hunger", "Nightcrawler", "Zombie Sentry", "Grand Master", "Hulkbuster", "Sentinel", "Ironheart", "Elsa Bloodstone", "Crystal", "Wong", "Absorbing Man", "Zombie Giant-Man", "Zombie Mister Fantastic", "Kitty Pryde", "Zombie Scarlet Witch", "Venus", "Thanos Fractured Frontier", "Surge", "Jane Foster Fractured Frontier"]
+		},
+		"buff": {
+			"nome": "Buff",
+			"desc": "Dá poder extra pras suas próprias cartas.",
+			"cards": ["Majestic Wingbeat", "Agony", "America Chavez", "Spider-Man Brand New Day", "Surge", "Jeff the Baby Dolphin!?", "Mister Sinister", "Maverick", "Jubilee Silver Surfer", "Stick", "Superior Iron Man", "Thanos Fractured Frontier", "Doctor Octopus Fractured Frontier", "Magik", "Adam Warlock", "Forge", "Zabu", "Zombie Galacti"]
+		},
+		"bounce": {
+			"nome": "Bounce",
+			"desc": "Devolve as suas cartas pra mão e joga elas de novo.",
+			"cards": ["Silver Sable", "Hawkeye", "Rocket Raccoon", "America Chavez", "Iceman", "Nico Minoru", "Boomerang", "Toxin", "Falcon", "Hit-Monkey", "Beast", "Sasquatch", "Joaquin Torres Falcon II", "Thanos Fractured Frontier", "Surge", "Grand Master", "Korg", "The Hood"]
+		},
+		"constante": {
+			"nome": "Constante",
+			"desc": "Efeitos ligados o tempo todo, sem precisar revelar.",
+			"cards": []
+		},
+		"controle": {
+			"nome": "Controle",
+			"desc": "Mexe no campo e nas cartas do oponente: remove, trava e atrapalha.",
+			"cards": ["Nebula", "White Widow", "Quake", "Scarlet Witch", "Green Goblin", "Storm", "Rogue", "Shang-Chi", "Negasonic Teenage Warhead", "Juggernaut", "Legion", "Alioth", "Cosmo", "Enchantress", "Killmonger", "Polaris", "Armor", "Professor X", "Spider-Man", "Shadow King", "Goose", "Aero", "Mobius M. Mobius", "Red Guardian"]
+		},
+		"antimove": {
+			"nome": "Anti-move",
+			"desc": "Puxa e empurra as cartas do oponente pra onde você quer.",
+			"cards": ["Batroc the Leaper", "Kingpin", "Scream", "Sam Wilson Captain America", "Kraven", "Polaris", "Juggernaut", "Miles Morales Spider-Man", "Stegron", "Man-Spider", "Cannonball", "Aero", "Magneto"]
+		},
+		"coringa": {
+			"nome": "Coringa",
+			"desc": "Cartas que viram o jogo sozinhas, sem precisar de combo.",
+			"cards": ["Arishem", "Thanos", "Sinister Six", "Thanos Fractured Frontier", "Kang", "Rogue Scion of Division", "Anti-Polar Magneto", "Red Onslaught", "Askani'son", "Rama-Tut", "Major Victory", "Magus", "Majestic Wingbeat"]
+		},
+		"rocks": {
+			"nome": "Rocks",
+			"desc": "Entope o campo do oponente de pedra e lixo.",
+			"cards": ["Mole Man", "Debrii", "Sandstorm", "Ozymandias", "Rhino", "Patriot", "Korg", "Green Goblin", "Hobgoblin", "Viper", "Annihilus", "Spider-Ham"]
+		}
+	}
+}

@@ -13,6 +13,7 @@ const DATA_FILE = 'static/data/cards.json';
 const IMG_DIR = 'static/images/cards';
 const OVERRIDES_FILE = 'scripts/card-overrides.json';
 const TEMAS_FILE = 'scripts/theme-overrides.json';
+const TEMA_CARDS_FILE = 'scripts/theme-cards.json';
 
 // cartas colecionáveis (exclui tokens, variantes de modos especiais, "Champions", etc.)
 const COLLECTIBLE = /^(Series|Starter|Recruit|Collection)/;
@@ -48,6 +49,21 @@ async function main() {
 	if (missingOverrides.length) console.warn('Overrides não encontrados na fonte:', missingOverrides);
 
 	const temaOverrides = JSON.parse(await readFile(TEMAS_FILE, 'utf8'));
+	const temasFixos = JSON.parse(await readFile(TEMA_CARDS_FILE, 'utf8')).temas;
+
+	// as listas são escritas por nome; aqui viram ids, avisando o que não bateu
+	const porNome = new Map(picked.map((c) => [stripTags(c.name).toLowerCase(), c.carddefid]));
+	const semMatch = [];
+	for (const [chave, def] of Object.entries(temasFixos)) {
+		def.ids = (def.cards || [])
+			.map((nome) => {
+				const id = porNome.get(nome.toLowerCase());
+				if (!id) semMatch.push(`${chave}: ${nome}`);
+				return id;
+			})
+			.filter(Boolean);
+	}
+	if (semMatch.length) console.warn('Cartas das listas de arquétipo que não bateram com nenhum nome:', semMatch);
 
 	const cards = picked
 		.map((c) => {
@@ -63,7 +79,7 @@ async function main() {
 				ability,
 				art: c.art
 			};
-			const { temas, papeis } = classifica(card, temaOverrides);
+			const { temas, papeis } = classifica(card, temasFixos, temaOverrides);
 			return { ...card, temas, papeis };
 		})
 		.sort((a, b) => a.name.localeCompare(b.name));
@@ -94,7 +110,8 @@ async function main() {
 
 	const final = cards.filter((c) => !failed.some((f) => f.startsWith(c.name + ' ')));
 	const out = final.map(({ art, ability, ...c }) => c); // eslint-disable-line no-unused-vars
-	await writeFile(DATA_FILE, JSON.stringify({ updated: new Date().toLocaleDateString('sv-SE'), cards: out }, null, '\t'));
+	const temas = Object.fromEntries(Object.entries(temasFixos).map(([k, t]) => [k, { nome: t.nome, desc: t.desc }]));
+	await writeFile(DATA_FILE, JSON.stringify({ updated: new Date().toLocaleDateString('sv-SE'), temas, cards: out }, null, '\t'));
 
 	const porTema = {};
 	out.forEach((c) => c.temas.forEach((t) => (porTema[t] = (porTema[t] || 0) + 1)));

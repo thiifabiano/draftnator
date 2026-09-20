@@ -4,16 +4,6 @@
 // No fim: 12 cartas, 6 do tema.
 import { randomNum } from '$lib/global.js';
 
-export const TEMAS = {
-	destruir: { nome: 'Destruir', desc: 'Destrói as suas próprias cartas e lucra com isso.' },
-	descartar: { nome: 'Descartar', desc: 'Descarta cartas da sua mão e lucra com isso.' },
-	mover: { nome: 'Mover', desc: 'Move as suas cartas entre locais e lucra com isso.' },
-	bounce: { nome: 'Bounce', desc: 'Devolve as suas cartas pra mão e joga elas de novo.' },
-	constante: { nome: 'Constante', desc: 'Efeitos ligados o tempo todo, sem precisar revelar.' },
-	rampa: { nome: 'Rampa', desc: 'Ganha energia ou desconto pra jogar cartas caras antes da hora.' },
-	controle: { nome: 'Controle', desc: 'Mexe no campo e nas cartas do oponente: remove, trava e atrapalha.' }
-};
-
 export const RODADAS = 4; // 1 de arquétipo + 3 mistas
 export const CARTAS_POR_OPCAO = 3;
 export const OPCOES = 3;
@@ -22,13 +12,20 @@ const sortear = (pool) => pool[randomNum(0, pool.length - 1)];
 
 const doTema = (cards, tema) => cards.filter((c) => c.temas?.includes(tema));
 
+// Só vale equilibrar papéis em tema com os dois lados de verdade.
+// Toxic, Zombie, Controle, Rocks e Coringa são listas fechadas, sem recompensa separada.
+const MIN_POR_PAPEL = 3;
+
+const doPapel = (cards, tema, papel) => doTema(cards, tema).filter((c) => c.papeis?.[tema] === papel);
+
+function temDoisLados(cards, tema) {
+	return doPapel(cards, tema, 'motor').length >= MIN_POR_PAPEL && doPapel(cards, tema, 'recompensa').length >= MIN_POR_PAPEL;
+}
+
 // Garante os dois lados do arquétipo: motor faz acontecer, recompensa lucra.
-// Temas como Constante e Controle não têm recompensa separada — aí não força nada.
 function papelDesejado(cards, tema, deck) {
+	if (!temDoisLados(cards, tema)) return null;
 	const pool = doTema(cards, tema);
-	const temMotor = pool.some((c) => c.papeis?.[tema] === 'motor');
-	const temRecompensa = pool.some((c) => c.papeis?.[tema] === 'recompensa');
-	if (!temMotor || !temRecompensa) return null;
 
 	const noDeck = deck.filter((c) => c.temas?.includes(tema));
 	const motores = noDeck.filter((c) => c.papeis?.[tema] === 'motor').length;
@@ -51,14 +48,21 @@ export function opcoesDeTema(cards, temas) {
 	const fora = new Set();
 	return temas.map((tema) => {
 		const pool = doTema(cards, tema);
-		const motores = pool.filter((c) => c.papeis?.[tema] === 'motor');
-		const recompensas = pool.filter((c) => c.papeis?.[tema] === 'recompensa');
 		const escolhidas = [];
-		if (motores.length && recompensas.length) {
-			escolhidas.push(pega(motores, fora), pega(recompensas, fora));
+		// nos temas com os dois lados, a opção já sai com 1 motor e 1 recompensa
+		if (temDoisLados(cards, tema)) {
+			for (const papel of ['motor', 'recompensa']) {
+				const carta = pega(doPapel(cards, tema, papel), fora);
+				if (carta) escolhidas.push(carta);
+			}
 		}
-		while (escolhidas.length < CARTAS_POR_OPCAO) escolhidas.push(pega(pool, fora));
-		return { tema, cartas: escolhidas.filter(Boolean).map((c) => ({ card: c, doTema: true })) };
+		// completa com qualquer carta do tema; o pool pode ter esvaziado em outra opção
+		while (escolhidas.length < CARTAS_POR_OPCAO) {
+			const carta = pega(pool, fora);
+			if (!carta) break;
+			escolhidas.push(carta);
+		}
+		return { tema, cartas: escolhidas.map((c) => ({ card: c, doTema: true })) };
 	});
 }
 
@@ -98,7 +102,9 @@ export function trocaNaOpcao(cards, opcoes, indexOpcao, indexCarta, deck, recusa
 }
 
 export function sorteiaTemas(cards, quantos = OPCOES) {
-	const disponiveis = Object.keys(TEMAS).filter((t) => doTema(cards, t).length >= 12);
+	// 12 é o mínimo pra um draft não pegar sempre as mesmas cartas do arquétipo
+	const todos = [...new Set(cards.flatMap((c) => c.temas || []))];
+	const disponiveis = todos.filter((t) => doTema(cards, t).length >= 12);
 	const escolhidos = [];
 	while (escolhidos.length < quantos && escolhidos.length < disponiveis.length) {
 		const t = sortear(disponiveis);
