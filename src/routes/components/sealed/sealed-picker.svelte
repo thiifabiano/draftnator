@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { loadCards, cardImage } from '$lib/cards.js';
+	import { poolJogavel, marcaNaoTenho } from '$lib/collection.js';
 	import { sortCards, randomNum } from '$lib/global.js';
 	import { SEALED_CARDS } from '$lib/store.js';
 	import { DECK } from '$lib/store.js';
@@ -15,7 +16,7 @@
 	let openComplete = false;
 
 	onMount(async () => {
-		allCards = await loadCards();
+		allCards = poolJogavel(await loadCards()); // tira as marcadas como "Não tenho"
 		$DECK = [];
 		$SEALED_CARDS = []; // reset any old data on reload
 	});
@@ -29,6 +30,7 @@
 			// remove the card already in our hands
 			const old = displayedCards[index];
 			skipped.add(old.id);
+			marcaNaoTenho(old.id); // o navegador lembra pros próximos drafts
 			cardsOpened.splice(
 				cardsOpened.findIndex((x) => x.id === old.id),
 				1

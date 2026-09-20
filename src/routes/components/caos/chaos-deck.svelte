@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { loadCards, cardImage } from '$lib/cards.js';
+	import { poolJogavel, marcaNaoTenho } from '$lib/collection.js';
 	import { sortearDeck, trocarCarta, custoMedio, ROLLS_POR_PARTIDA } from '$lib/chaos.js';
 	import { buildDeckCode, sortCards } from '$lib/global.js';
 	import { DECK } from '$lib/store.js';
@@ -25,7 +26,7 @@
 	$: medio = custoMedio(deck).toFixed(2).replace('.', ',');
 
 	onMount(async () => {
-		allCards = await loadCards();
+		allCards = poolJogavel(await loadCards()); // tira as marcadas como "Não tenho"
 		deck = sortCards(sortearDeck(allCards));
 		bindToolTips();
 	});
@@ -52,6 +53,7 @@
 	// sem limite: é a coleção do jogador, não dá pra jogar com carta que ele não tem
 	function naoTenho(index) {
 		ignoradas.add(deck[index].id);
+		marcaNaoTenho(deck[index].id); // o navegador lembra pros próximos drafts
 		trocar(index);
 	}
 

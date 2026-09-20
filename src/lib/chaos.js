@@ -30,16 +30,18 @@ const sortear = (pool) => pool[randomNum(0, pool.length - 1)];
 export function sortearDeck(cards, ignoradas = new Set()) {
 	const pool = cards.filter((c) => !ignoradas.has(c.id));
 	let deck;
-	do {
+	// o teto evita travar se o pool ficar pequeno demais pra fechar a curva
+	for (let tentativas = 0; tentativas < 2000; tentativas++) {
 		const escolhidas = new Set();
 		deck = [];
-		while (deck.length < DECK_SIZE) {
+		while (deck.length < DECK_SIZE && escolhidas.size < pool.length) {
 			const card = sortear(pool);
 			if (escolhidas.has(card.id)) continue;
 			escolhidas.add(card.id);
 			deck.push(card);
 		}
-	} while (!curvaOk(deck));
+		if (curvaOk(deck)) break;
+	}
 	return deck;
 }
 

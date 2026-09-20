@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { sortCards, randomNum } from '$lib/global.js';
 	import { loadCards, cardImage } from '$lib/cards.js';
+	import { poolJogavel, marcaNaoTenho } from '$lib/collection.js';
 	import { DECK } from '$lib/store.js';
 
 	let cards = [];
@@ -9,7 +10,7 @@
 	const taken = new Set();
 
 	onMount(async () => {
-		cards = await loadCards();
+		cards = poolJogavel(await loadCards()); // tira as marcadas como "Não tenho"
 		$DECK = [];
 		pickCards();
 	});
@@ -30,6 +31,7 @@
 			[0, 1, 2].forEach(drawCard);
 		} else {
 			taken.add(picks[slot].id); // "não tenho" -> não volta mais
+			marcaNaoTenho(picks[slot].id); // e o navegador lembra pros próximos drafts
 			drawCard(slot);
 		}
 	}

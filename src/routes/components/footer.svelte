@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { IGNORADAS, carregaIgnoradas } from '$lib/collection.js';
 
 	let updated = '';
 	let total = 0;
@@ -7,10 +8,12 @@
 		const data = await (await fetch('/data/cards.json')).json();
 		updated = data.updated.split('-').reverse().join('/');
 		total = data.cards.length;
+		carregaIgnoradas();
 	});
 </script>
 
 <div id="footer">
+	<a href="/colecao/">Cartas que não tenho{$IGNORADAS.size ? ` (${$IGNORADAS.size})` : ''}</a> ●
 	{#if total}{total} cartas ● base atualizada em {updated} ●{/if}
 	baseado no <a target="_blank" rel="noreferrer" href="https://github.com/hansenwebco/marvel-snap-draftanator">Draftanator</a> de stonedonkey
 </div>

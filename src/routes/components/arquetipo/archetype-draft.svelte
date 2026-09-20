@@ -1,6 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { loadCards, loadTemas, cardImage } from '$lib/cards.js';
+	import { poolJogavel, marcaNaoTenho } from '$lib/collection.js';
 	import { RODADAS, sorteiaTemas, opcoesDeTema, opcoesMistas, trocaNaOpcao } from '$lib/archetypes.js';
 	import { buildDeckCode, sortCards } from '$lib/global.js';
 	import { custoMedio } from '$lib/chaos.js';
@@ -25,7 +26,9 @@
 	$: medio = custoMedio(deck).toFixed(2).replace('.', ',');
 
 	onMount(async () => {
-		[allCards, temas] = await Promise.all([loadCards(), loadTemas()]);
+		const [todas, mapaTemas] = await Promise.all([loadCards(), loadTemas()]);
+		allCards = poolJogavel(todas); // tira as cartas já marcadas como "Não tenho"
+		temas = mapaTemas;
 		opcoes = opcoesDeTema(allCards, sorteiaTemas(allCards));
 		redesenhaTips();
 	});
@@ -54,7 +57,10 @@
 	}
 
 	function trocar(io, ic) {
-		recusadas.add(opcoes[io].cartas[ic].card.id);
+		const id = opcoes[io].cartas[ic].card.id;
+		recusadas.add(id);
+		marcaNaoTenho(id); // o navegador lembra pros próximos drafts
+		allCards = allCards.filter((c) => c.id !== id);
 		opcoes = trocaNaOpcao(allCards, opcoes, io, ic, deck, recusadas);
 		redesenhaTips();
 	}
