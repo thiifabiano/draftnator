@@ -6,11 +6,13 @@
 
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
 import sharp from 'sharp';
+import { classifica } from './themes.mjs';
 
 const SOURCE = 'https://marvelsnapzone.com/getinfo/?searchtype=cards&searchcardstype=true';
 const DATA_FILE = 'static/data/cards.json';
 const IMG_DIR = 'static/images/cards';
 const OVERRIDES_FILE = 'scripts/card-overrides.json';
+const TEMAS_FILE = 'scripts/theme-overrides.json';
 
 // cartas colecionáveis (exclui tokens, variantes de modos especiais, "Champions", etc.)
 const COLLECTIBLE = /^(Series|Starter|Recruit|Collection)/;
@@ -45,15 +47,25 @@ async function main() {
 	const missingOverrides = [...include].filter((id) => !picked.some((c) => c.carddefid === id));
 	if (missingOverrides.length) console.warn('Overrides não encontrados na fonte:', missingOverrides);
 
+	const temaOverrides = JSON.parse(await readFile(TEMAS_FILE, 'utf8'));
+
 	const cards = picked
-		.map((c) => ({
-			id: c.carddefid,
-			name: stripTags(c.name),
-			energy: Number(c.cost),
-			power: Number(c.power),
-			desc: stripTags(c.ability) || stripTags(c.flavor),
-			art: c.art
-		}))
+		.map((c) => {
+			// habilidade e frase de efeito separadas: classificar pela frase colocava
+			// o Cyclops ("Let's move, X-Men") no arquétipo Mover
+			const ability = stripTags(c.ability);
+			const card = {
+				id: c.carddefid,
+				name: stripTags(c.name),
+				energy: Number(c.cost),
+				power: Number(c.power),
+				desc: ability || stripTags(c.flavor),
+				ability,
+				art: c.art
+			};
+			const { temas, papeis } = classifica(card, temaOverrides);
+			return { ...card, temas, papeis };
+		})
 		.sort((a, b) => a.name.localeCompare(b.name));
 
 	await mkdir(IMG_DIR, { recursive: true });
@@ -81,10 +93,13 @@ async function main() {
 	);
 
 	const final = cards.filter((c) => !failed.some((f) => f.startsWith(c.name + ' ')));
-	const out = final.map(({ art, ...c }) => c); // eslint-disable-line no-unused-vars
+	const out = final.map(({ art, ability, ...c }) => c); // eslint-disable-line no-unused-vars
 	await writeFile(DATA_FILE, JSON.stringify({ updated: new Date().toLocaleDateString('sv-SE'), cards: out }, null, '\t'));
 
+	const porTema = {};
+	out.forEach((c) => c.temas.forEach((t) => (porTema[t] = (porTema[t] || 0) + 1)));
 	console.log(`${out.length} cartas salvas em ${DATA_FILE}. ${downloaded} imagens novas.`);
+	console.log('Arquétipos:', porTema);
 	if (failed.length) console.warn('Falharam (ficaram de fora):', failed);
 }
 

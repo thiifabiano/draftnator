@@ -1,0 +1,8 @@
+{
+	"_comment": "Ajustes manuais da classificação de arquétipos. Use o id da carta (carddefid). include força a carta no tema; exclude tira.",
+	"include": {
+		"bounce": ["JoaquinTorresFalconII", "GrandMaster", "TheHood", "Korg", "AmericaChavez", "SilverSable"],
+		"controle": ["ShangChiMasterOfTheRings"]
+	},
+	"exclude": {}
+}

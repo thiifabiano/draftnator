@@ -16,6 +16,12 @@
 		<a href="/caos" class="btn btn-primary mode-caos" id="btn-caos-2">Modo Caos</a>
 		<div class="start-text">Um deck de doze cartas sorteado na hora, sem escolher nada.</div>
 	</div>
+
+	<div class="mode">
+		<a href="/arquetipo"><span id="btn-arquetipo" class="material-symbols-outlined icon mode-arquetipo">hub</span><br /><br /></a>
+		<a href="/arquetipo" class="btn btn-primary mode-arquetipo" id="btn-arquetipo-2">Modo Arquétipo</a>
+		<div class="start-text">Escolha um arquétipo e monte um deck com sinergia em quatro rodadas.</div>
+	</div>
 </div>
 
 <style>
